@@ -15,8 +15,6 @@
 
   .text {
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     color: white;
     margin: 15px 0 45px 0;
     text-align: center;
@@ -37,20 +35,7 @@
   background-color: white;
   padding: 60px 0;
 
-  .subtitle {
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    color: #5d5a88;
-    text-align: center;
-  }
-
   .text {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    color: #5d5a88;
-    text-align: center;
     margin: 8px 0 78px 0;
   }
 
@@ -102,5 +87,55 @@
 
   .btn-purple {
     margin-top: 30px;
+  }
+}
+
+.acerca {
+  background-color: white;
+  padding: 60px 0;
+
+  .sub-subtitle {
+    font-size: 23.589px;
+    font-style: normal;
+    font-weight: 700;
+    color: #5d5a88;
+    margin-top: 24px;
+    text-align: center;
+  }
+
+  .position-text {
+    font-size: 16.849px;
+    font-style: normal;
+    font-weight: 500;
+    color: #8d8ba7;
+    margin: 8px 0 24px 0;
+    text-align: center;
+  }
+
+  .fa-brands {
+    background-color: #F2F1FA;
+    color: #8d8ba7;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+  }
+
+  .social-icons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .text {
+    margin: 16px 0 36px 0;
+  }
+
+  .row {
+    gap: 32px;
   }
 }

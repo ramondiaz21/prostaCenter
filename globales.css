@@ -50,3 +50,19 @@ button:focus {
   outline: none!important;
   box-shadow: none!important;
 }
+
+.subtitle {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  color: #5d5a88;
+  text-align: center;
+}
+
+.text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #5d5a88;
+  text-align: center;
+}
