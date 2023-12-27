@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,
+a {
+  font-family: "DM Sans", sans-serif;
+}
+
+.btn-white {
+  padding: 18px 24px;
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  background-color: white;
+  color: #5d5a88;
+  border-radius: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+}
+
+.btn-purple {
+  padding: 24px;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  color: white;
+  border-radius: 16px;
+  background: #6F65FF;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.20);
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  text-align: left;
+}
+
+.container {
+  padding: 0 25px;
+}
+
+button:focus {
+  outline: none!important;
+  box-shadow: none!important;
+}
