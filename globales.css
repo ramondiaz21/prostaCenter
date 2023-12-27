@@ -18,7 +18,6 @@ a {
   background-color: white;
   color: #5d5a88;
   border-radius: 30px;
-  font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -32,9 +31,8 @@ a {
   gap: 10px;
   color: white;
   border-radius: 16px;
-  background: #6F65FF;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.20);
-  font-family: "DM Sans", sans-serif;
+  background: #6f65ff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -42,13 +40,25 @@ a {
   text-align: left;
 }
 
+.btn-blue {
+  padding: 18px 24px;
+  color: white;
+  border-radius: 30px;
+  background: #4b3fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+  text-align: center;
+}
+
 .container {
   padding: 0 25px;
 }
 
 button:focus {
-  outline: none!important;
-  box-shadow: none!important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .subtitle {

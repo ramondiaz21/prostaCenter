@@ -113,7 +113,7 @@
   }
 
   .fa-brands {
-    background-color: #F2F1FA;
+    background-color: #f2f1fa;
     color: #8d8ba7;
     width: 36px;
     height: 36px;
@@ -137,5 +137,51 @@
 
   .row {
     gap: 32px;
+  }
+}
+
+.servicios {
+  padding: 60px 0;
+  background-color: white;
+
+  .text {
+    margin: 16px 0 32px 0;
+  }
+
+  .sub-subtitle {
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #9795b5;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .row {
+    row-gap: 16px;
+  }
+
+  .row .col-6 {
+    padding: 0 8px;
+  }
+
+  .card-servicios {
+    border-radius: 24px;
+    border: 1px solid #d4d2e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 37.5px;
+    gap: 12px;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+  }
+
+  .btn-blue {
+    min-width: 250px;
+    margin: auto;
+    margin: 32px 0 82.78px;
   }
 }
