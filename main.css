@@ -185,3 +185,34 @@
     margin: 32px 0 82.78px;
   }
 }
+
+.otros-servicios {
+  padding: 60px 0 104px 0;
+  background-color: #F2F1FA;
+
+  .subtitle {
+    text-align: left;
+    margin-bottom: 64px;
+  }
+
+  .otros-servicios-wrapper {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .otro-servicio-wrapper {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .text {
+    margin-bottom: 0;
+  }
+}
