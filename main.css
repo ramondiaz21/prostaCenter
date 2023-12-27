@@ -27,7 +27,7 @@
   }
 
   .row {
-    gap: 120px;
+    row-gap: 120px;
   }
 }
 
@@ -136,7 +136,7 @@
   }
 
   .row {
-    gap: 32px;
+    row-gap: 32px;
   }
 }
 
@@ -214,5 +214,47 @@
 
   .text {
     margin-bottom: 0;
+  }
+}
+
+.contacto {
+  background-color: white;
+  padding: 60px 0 82px 0;
+
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .side {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .text-wrapper {
+    margin: 25px 0;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text {
+    margin-bottom: 0;
+  }
+
+  .sucursal-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper {
+    display: flex;
+    gap: 6px;
   }
 }
