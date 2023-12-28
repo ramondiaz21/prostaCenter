@@ -1,3 +1,99 @@
+.navbar {
+  background-color: white;
+  padding: 25px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .fa-brands {
+    background-color: #2d26a2;
+    color: white;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+  }
+
+  .social-icons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 25px;
+  }
+
+  hr {
+    border-bottom: 1px solid #2d26a2;
+    opacity: 1;
+    margin: 25px 0;
+  }
+
+  .nav-link {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    color: #4b3fff;
+  }
+
+  .copyright-text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: #2d26a2;
+    text-align: center;
+  }
+}
+
+.navbar-collapse {
+  box-sizing: border-box;
+}
+
+.navbar-collapse.collapsing {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 92px;
+  z-index: 1000;
+  left: 0;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  height: calc(100vh - 92px);
+}
+
+.navbar-collapse.show {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 92px;
+  z-index: 1000;
+  left: 0;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  height: calc(100vh - 92px);
+}
+
+.navbar-collapse hr {
+  border-bottom: 1px solid rgba(75, 63, 255, 0.3);
+  margin: 32px 0;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
 .hero {
   background-color: #4b3fff;
   min-height: 100vh;
@@ -52,6 +148,7 @@
     font-weight: 700;
     gap: 10px;
     color: #5d5a88;
+    z-index: 0;
   }
 
   .accordion-button:not(.collapsed) {
@@ -331,8 +428,6 @@
     opacity: 1;
     margin: 25px 0;
   }
-
-  
 }
 
 .footer .copyright-text {
