@@ -274,3 +274,69 @@
 .contacto .text {
   text-decoration: none !important;
 }
+
+.footer {
+  background-color: #2d26a2;
+  padding: 45.98px 0;
+
+  .logo-wrapper {
+    text-align: center;
+  }
+
+  .logo {
+    margin-bottom: 45px;
+  }
+
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .text {
+    color: white;
+    margin: 0;
+  }
+
+  .fa-brands {
+    background-color: white;
+    color: #2d26a2;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+  }
+
+  .social-icons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 25px;
+  }
+
+  hr {
+    border-bottom: 1px solid white;
+    opacity: 1;
+    margin: 25px 0;
+  }
+
+  .copyright-text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+  }
+}
