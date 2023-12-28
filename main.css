@@ -332,11 +332,13 @@
     margin: 25px 0;
   }
 
-  .copyright-text {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    color: white;
-    text-align: center;
-  }
+  
+}
+
+.footer .copyright-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  text-align: center;
 }
