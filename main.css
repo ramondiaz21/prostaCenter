@@ -218,6 +218,8 @@ text-align: center;
     gap: 10px;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
   }
 
   .text {
@@ -251,6 +253,7 @@ text-align: center;
 
   .text {
     margin-bottom: 0;
+    text-decoration: none!important;
   }
 
   .sucursal-wrapper {
