@@ -3,6 +3,7 @@
   padding: 25px 0;
   position: fixed;
   width: 100%;
+  top: 0;
   z-index: 1;
 
   .navbar-toggler {
@@ -41,14 +42,14 @@
     font-weight: 600;
     color: #4b3fff;
   }
+}
 
-  .copyright-text {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    color: #2d26a2;
-    text-align: center;
-  }
+.navbar .copyright-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: #2d26a2;
+  text-align: center;
 }
 
 .navbar-collapse {
@@ -59,7 +60,7 @@
   background-color: white;
   width: 100%;
   position: fixed;
-  top: 92px;
+  top: 90px;
   z-index: 1000;
   left: 0;
   padding: 32px;
@@ -74,7 +75,7 @@
   background-color: white;
   width: 100%;
   position: fixed;
-  top: 92px;
+  top: 90px;
   z-index: 1000;
   left: 0;
   padding: 32px;
@@ -100,6 +101,7 @@
   display: flex;
   align-items: center;
   padding: 70px 0 100px 0;
+  margin-top: 90px;
 
   .title {
     font-size: 44px;
