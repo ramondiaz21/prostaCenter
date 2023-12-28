@@ -184,6 +184,14 @@
     margin: auto;
     margin: 32px 0 82.78px;
   }
+
+  .card-servicios-title {
+    font-size: 18px;
+font-style: normal;
+font-weight: 700;
+color: #5D5A88;
+text-align: center;
+  }
 }
 
 .otros-servicios {
@@ -256,5 +264,6 @@
   .wrapper {
     display: flex;
     gap: 6px;
+    align-items: flex-start;
   }
 }
