@@ -187,44 +187,44 @@
 
   .card-servicios-title {
     font-size: 18px;
-font-style: normal;
-font-weight: 700;
-color: #5D5A88;
-text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    color: #5d5a88;
+    text-align: center;
   }
 }
 
 .otros-servicios {
   padding: 60px 0 104px 0;
-  background-color: #F2F1FA;
+  background-color: #f2f1fa;
+}
 
-  .subtitle {
-    text-align: left;
-    margin-bottom: 64px;
-  }
+.otros-servicios .subtitle {
+  text-align: left;
+  margin-bottom: 64px;
+}
 
-  .otros-servicios-wrapper {
-    display: flex;
-    gap: 24px;
-    flex-direction: column;
-  }
+.otros-servicios .otros-servicios-wrapper {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
 
-  img {
-    width: 20px;
-    height: 20px;
-  }
+.otros-servicios img {
+  width: 20px;
+  height: 20px;
+}
 
-  .otro-servicio-wrapper {
-    gap: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-  }
+.otros-servicios .otro-servicio-wrapper {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
 
-  .text {
-    margin-bottom: 0;
-  }
+.otros-servicios .text {
+  margin-bottom: 0;
 }
 
 .contacto {
@@ -253,7 +253,7 @@ text-align: center;
 
   .text {
     margin-bottom: 0;
-    text-decoration: none!important;
+    text-decoration: none !important;
   }
 
   .sucursal-wrapper {
