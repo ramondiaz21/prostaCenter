@@ -270,3 +270,7 @@
     align-items: flex-start;
   }
 }
+
+.contacto .text {
+  text-decoration: none !important;
+}
