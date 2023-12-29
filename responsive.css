@@ -140,9 +140,18 @@
     font-size: 28px;
   }
 
+  .otros-servicios {
+    padding: 120px 0;
+  }
+
+  .otros-servicios .subtitle {
+    text-align: center;
+  }
+
   .otros-servicios .otros-servicios-wrapper {
     display: flex;
-    gap: 24px;
+    row-gap: 24px;
+    column-gap: 0;
     flex-wrap: wrap;
     flex-direction: row;
   }
@@ -153,7 +162,70 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
+    width: 25%;
+  }
+
+  .contacto {
+    padding: 140px 0;
+  }
+
+  .contacto .info-wrapper {
+    flex-direction: row;
+  }
+
+  .contacto .side {
     flex: 1;
-    min-width: 20%;
-}
+  }
+
+  .contacto .text,
+  .contacto .subtitle {
+    text-align: left;
+  }
+
+  .contacto .text-wrapper {
+    justify-content: flex-start;
+  }
+
+  .contacto .only-desktop {
+    display: flex;
+    row-gap: 41px;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .contacto .only-desktop .sucursal-wrapper {
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: calc(50% - 20px);
+  }
+
+  .footer {
+    padding: 60px 0;
+  }
+
+  .footer .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer .contact-wrapper {
+    flex-direction: row;
+    gap: 70px;
+  }
+  .footer .logo-wrapper {
+    text-align: left;
+  }
+
+  .footer .logo {
+    margin-bottom: 35px;
+  }
+
+  .footer .copyright-text {
+    text-align: right;
+  }
 }
