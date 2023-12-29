@@ -1,20 +1,159 @@
-@media (max-width: 575.98px) {
-  
-}
+@media (min-width: 991.98px) {
+  .only-desktop {
+    display: block;
+  }
 
-@media (max-width: 767.98px) {
-  
-}
+  .only-mobile {
+    display: none;
+  }
 
-@media (max-width: 991.98px) {
-  
-}
+  .text {
+    font-size: 18px;
+  }
 
-@media (max-width: 1199.98px) {
-  
-}
+  .subtitle {
+    font-size: 36px;
+  }
 
-@media (max-width: 1399.98px) {
-  
-}
+  .btn-white {
+    padding: 24px 36px;
+    font-size: 18px;
+  }
 
+  .btn-purple {
+    padding: 48px;
+    border-radius: 15px;
+    font-size: 24px;
+  }
+
+  .btn-blue {
+    padding: 18px 24px;
+    font-size: 16px;
+  }
+
+  .navbar .text-wrapper {
+    display: none;
+  }
+
+  .navbar-nav {
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  .navbar .nav-link {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+  }
+
+  .navbar.only-desktop {
+    background-color: #4b3fff;
+  }
+
+  .hero .text-side {
+    align-items: flex-start;
+  }
+
+  .hero .title {
+    text-align: left;
+  }
+
+  .hero .text {
+    text-align: left;
+  }
+
+  .hero .btn-white {
+    min-width: 261px;
+    border-radius: 100px;
+  }
+
+  .faqs {
+    padding: 140px 0 70px 0;
+  }
+
+  .faqs .text {
+    max-width: 717px;
+    margin: 16px auto 56px auto;
+  }
+
+  .faqs .accordion-button {
+    font-size: 28px;
+  }
+
+  .faqs .accordion-body p {
+    max-width: 753.402px;
+    font-size: 18px;
+  }
+
+  .faqs .btn-purple {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 55px;
+  }
+
+  .acerca {
+    padding: 70px 0;
+  }
+
+  .acerca .text {
+    max-width: 717px;
+    margin: 16px auto 60px auto;
+  }
+
+  .acerca .sub-subtitle {
+    text-align: left;
+    font-size: 23.589px;
+  }
+
+  .acerca .position-text {
+    text-align: left;
+    font-size: 16.849px;
+    margin: 6px 0 26px 0;
+  }
+
+  .acerca .social-icons-wrapper {
+    justify-content: flex-start;
+  }
+
+  .servicios {
+    padding: 70px 0 50px 0;
+  }
+
+  .servicios .text {
+    max-width: 717px;
+    margin: 16px auto 47px auto;
+  }
+
+  .servicios .sub-subtitle {
+    font-size: 20px;
+    margin-bottom: 47px;
+  }
+
+  .servicios .card-servicios {
+    min-height: 260px;
+    gap: 30px;
+  }
+
+  .servicios .card-servicios-title {
+    font-size: 28px;
+  }
+
+  .otros-servicios .otros-servicios-wrapper {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .otros-servicios .otro-servicio-wrapper {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex: 1;
+    min-width: 20%;
+}
+}

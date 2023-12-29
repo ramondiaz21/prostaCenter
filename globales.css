@@ -89,3 +89,15 @@ button:focus {
   color: #5d5a88;
   text-align: center;
 }
+
+.only-desktop {
+  display: none;
+}
+
+.only-mobile {
+  display: block;
+}
+
+@media (min-width: 991.98px) {
+
+}
