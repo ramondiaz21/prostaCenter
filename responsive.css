@@ -1,4 +1,8 @@
 @media (min-width: 991.98px) {
+  .altNav {
+    box-shadow:none;
+  }
+
   .only-desktop {
     display: block;
   }

@@ -14,4 +14,15 @@ document.addEventListener('DOMContentLoaded', function () {
   // Aplica la altura al elemento .navbar-collapse.collapsing
   document.querySelector('.navbar-collapse.collapsing').style.height = availableHeight + 'px';
   document.querySelector('.navbar-collapse.show').style.height = availableHeight + 'px';
+
+  
+});
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 500) {
+    $('.navbar').addClass('altNav')
+  }
+  if ($(this).scrollTop() < 500) {
+    $('.navbar').removeClass('altNav')
+  }
 });
