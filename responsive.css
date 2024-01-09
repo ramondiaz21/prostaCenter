@@ -163,10 +163,11 @@
   .otros-servicios .otro-servicio-wrapper {
     gap: 10px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
     width: 25%;
+    padding-right: 15px;
   }
 
   .contacto {
@@ -198,13 +199,15 @@
     flex-direction: row;
   }
 
-  .contacto .only-desktop .sucursal-wrapper {
+  .contacto .sucursal-wrapper {
     gap: 10px;
-    display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    width: calc(50% - 20px);
+  }
+
+  .select-address {
+    font-size: 18px;
   }
 
   .footer {

@@ -1,5 +1,5 @@
 .altNav {
-  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
@@ -45,7 +45,7 @@
     font-style: normal;
     font-weight: 600;
     color: #4b3fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
   }
 }
 
@@ -165,6 +165,14 @@
   }
 
   .accordion-body p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #9795b5;
+    text-align: left;
+  }
+
+  .accordion-body li {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -310,7 +318,7 @@
 
 .otros-servicios .otros-servicios-wrapper {
   display: flex;
-  column-gap: 24px;
+  row-gap: 24px;
   flex-direction: column;
 }
 
@@ -367,12 +375,59 @@
     gap: 25px;
     align-items: center;
     justify-content: center;
+    /* margin-bottom: 30px; */
+    display: none;
   }
 
   .wrapper {
     display: flex;
     gap: 6px;
     align-items: flex-start;
+  }
+
+  .select-address {
+    border: 1px solid #0000001a;
+    color: #5533ff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: white;
+  }
+}
+
+.contacto .map-wrapper img {
+  width: 100%;
+}
+
+.contacto .map-wrapper img{
+  display: none;
+}
+
+.contacto select.select-address:focus-visible {
+  outline: none !important;
+}
+
+.contacto select.select-address {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("images/arrow-select.svg") no-repeat right center / 15px 15px; /* Ajusta el tamaño y la posición según tu necesidad */
+  padding-right: 16px; /* Agrega un relleno a la derecha para dejar espacio para tu SVG */
+  background-position: calc(100% - 16px) center;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .select-address::-ms-expand {
+    border: none !important;
+    color: #5533ff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
   }
 }
 
