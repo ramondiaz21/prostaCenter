@@ -57,3 +57,20 @@ selectElement.addEventListener("change", function() {
     selectedImage.style.display = "block";
   }
 });
+
+var selectElementContacto = document.getElementById('ubicacion');
+
+// Evento al cambiar la opción
+selectElementContacto.addEventListener('change', function() {
+  this.blur();  // Pierde el enfoque después de seleccionar una opción
+});
+
+// Evento al perder el enfoque
+selectElementContacto.addEventListener('blur', function() {
+  this.classList.remove('focus-visible'); // Quita la clase focus-visible
+});
+
+// Evento al ganar el enfoque
+selectElementContacto.addEventListener('focus', function() {
+  this.classList.add('focus-visible'); // Agrega la clase focus-visible
+});

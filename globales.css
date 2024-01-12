@@ -3,15 +3,7 @@ body {
   scroll-behavior: smooth;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-button,
-a {
+button {
   font-family: "DM Sans", sans-serif;
 }
 
@@ -29,28 +21,61 @@ a:hover {
   display: flex;
   gap: 8px;
   background-color: white;
-  color: #5d5a88;
+  color: #1e285f;
   border-radius: 30px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   border: none;
+  transition: 0.5s all ease;
+  position: relative;
+}
+
+.btn-white img {
+  transition: 1s all ease;
+}
+
+.btn-white .hover {
+  display: none;
+}
+
+.btn-white:hover {
+  background-color: #86a1fc;
+  color: white;
+}
+
+.btn-white:hover img.normal {
+  opacity: 0;
+  display: none;
+}
+
+.btn-white:hover img.hover {
+  display: block;
+  opacity: 1;
 }
 
 .btn-purple {
-  padding: 24px;
+  padding: 24px 5px;
   align-items: center;
+  justify-content: center;
+  width: 100%;
   display: flex;
   gap: 10px;
   color: white;
-  border-radius: 16px;
-  background: #6f65ff;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  font-size: 18px;
+  border-radius: 12px;
+  background: #4d73fb;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   border: none;
   text-align: left;
+  transition: 0.5s all ease;
+}
+
+.btn-purple:hover {
+  color: white;
+  background-color: #1c3295;
 }
 
 .btn-blue {
@@ -98,6 +123,36 @@ button:focus {
   display: block;
 }
 
-@media (min-width: 991.98px) {
+@font-face {
+  font-family: "Futura-Regular";
+  src: url("font/FuturaRegular/FuturaRegular.ttf");
+}
 
+@font-face {
+  font-family: "Futura-Medium";
+  src: url("font/FuturaMedium/FuturaMedium.ttf");
+}
+
+@font-face {
+  font-family: "Futura-Light";
+  src: url("font/FuturaLight/FuturaLight.ttf");
+}
+
+@font-face {
+  font-family: "Futura-Book";
+  src: url("font/FuturaBook/FuturaBook.ttf");
+}
+
+@font-face {
+  font-family: "Futura-Bold";
+  src: url("font/FuturaBold/FuturaBold.ttf");
+}
+
+@font-face {
+  font-family: "Futura-Black";
+  src: url("font/FuturaBlack/FuturaBlack.ttf");
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 200, "opsz" 24;
 }
