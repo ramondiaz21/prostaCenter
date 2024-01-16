@@ -17,7 +17,7 @@ function mailer() {
 
 		$.ajax({
 			type: 'POST',
-			url: 'http://localhost/prostacenter/php/contact.php',
+			url: $(form).attr('action'),
 			data: formData
 		}).done(function(response) {
 			$(alert).removeClass('error');
