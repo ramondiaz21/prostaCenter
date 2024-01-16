@@ -1,24 +1,47 @@
-function submitForm() {
-  // Obtener los valores del formulario
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
-  const message = document.getElementById("message").value;
+$(document).ready(function() {
+	mailer();
+});
 
-  // Enviar datos al servidor (puedes usar fetch o XMLHttpRequest)
-  fetch('/enviar-correo', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ name, email, message }),
-  })
-  .then(response => response.json())
-  .then(data => {
-    console.log('Respuesta del servidor:', data);
-    // Puedes manejar la respuesta del servidor aquí
-  })
-  .catch(error => {
-    console.error('Error al enviar el formulario:', error);
-    // Puedes manejar errores aquí
-  });
+function mailer() {
+	var form = $('#contact-form');
+	var alert = $('.alert');
+
+	$('.contact-submit').click(function() {
+		$(form).addClass('submitted');
+	});
+
+	$(form).submit(function(e) {
+		e.preventDefault();
+
+		var formData = $(form).serialize();
+
+		$.ajax({
+			type: 'POST',
+			url: 'http://localhost/prostacenter/php/contact.php',
+			data: formData
+		}).done(function(response) {
+			$(alert).removeClass('error');
+			$(alert).addClass('success');
+
+			$(alert).text(response);
+			alertMessage();
+			$(form).removeClass('submitted');
+
+			$('#name').val('');
+			$('#company').val('');
+			$('#email').val('');
+			$('#message').val('');
+		}).fail(function(data) {
+			$(alert).removeClass('success');
+			$(alert).addClass('error');
+
+			if (data.responseText !== '') {
+				$(alert).text(data.responseText);
+				alertMessage();
+			} else {
+				$(alert).text('Lo sentimos, ha ocurrido un error.');
+				alertMessage();
+			}
+		});
+	});
 }

@@ -45,7 +45,7 @@
     font-style: normal;
     font-weight: 600;
     color: #4b3fff;
-    font-family: "Futura-Regular";
+    font-family: 'Futura PT Book';
   }
 }
 
@@ -108,12 +108,31 @@
   padding: 70px 0 100px 0;
   margin-top: 90px;
 
+  .btn-wrapper {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .play {
+    width: 66px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border-radius: 100px;
+  }
+
   .title {
     font-size: 44px;
     font-style: normal;
     font-weight: 700;
     color: white;
     text-align: center;
+    font-family: "Futura PT Bold";
   }
 
   .text {
@@ -121,6 +140,7 @@
     color: white;
     margin: 15px 0 45px 0;
     text-align: center;
+    font-family: 'Futura PT Book';
   }
 
   .side {
@@ -136,10 +156,11 @@
 
 .faqs {
   background-color: white;
-  padding: 44px 0;
+  padding: 70px 0 44px 0;
 
   .text {
     margin: 8px 0 78px 0;
+    font-family: 'Futura PT Book';
   }
 
   .accordion-item {
@@ -155,6 +176,7 @@
     font-weight: 700;
     gap: 10px;
     color: #5d5a88;
+    font-family: 'Futura PT Demi';
     z-index: 0;
   }
 
@@ -196,7 +218,7 @@
 
 .acerca {
   background-color: white;
-  padding: 44px 0;
+  padding: 44px 0 80px 0;
 
   .sub-subtitle {
     font-size: 23.589px;
@@ -208,6 +230,7 @@
   }
 
   .position-text {
+    font-family: 'Futura PT Book';
     font-size: 16.849px;
     font-style: normal;
     font-weight: 500;
@@ -245,7 +268,7 @@
 }
 
 .servicios {
-  padding: 108px 0 59px 0;
+  padding: 80px 0 59px 0;
   background-color: white;
 
   .text {
@@ -300,11 +323,12 @@
 
 .otros-servicios {
   padding: 54px 0 104px 0;
-  background-color: #f2f1fa;
+  background-color: rgba(134, 161, 252, 0.70);;
 }
 
 .otros-servicios .subtitle {
   text-align: left;
+  color: #393C5E;
   margin-bottom: 64px;
 }
 
@@ -330,11 +354,17 @@
 .otros-servicios .text {
   margin-bottom: 0;
   text-align: left;
+  color: #393C5E;
 }
 
 .contacto {
   background-color: white;
   padding: 60px 0 82px 0;
+
+  .bold {
+    font-family: 'Futura PT Demi';
+    color: #8D8BA7;
+  }
 
   .info-wrapper {
     display: flex;
@@ -388,15 +418,15 @@
     border-radius: 8px;
     margin-bottom: 30px;
     background-color: white;
-    transition: .5s all ease;
+    transition: 0.5s all ease;
   }
 
   .select-address:hover {
-    background-color: #F5F4FB;
+    background-color: #f5f4fb;
   }
 
   .select-address:focus-visible {
-    background-color: #F5F4FB;
+    background-color: #f5f4fb;
   }
 }
 
@@ -404,7 +434,7 @@
   width: 100%;
 }
 
-.contacto .map-wrapper img{
+.contacto .map-wrapper img {
   display: none;
 }
 
@@ -416,22 +446,23 @@
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background: url("images/arrow-select.svg") no-repeat right center / 15px 15px; 
-  padding-right: 16px; 
+  background: url("images/arrow-select.svg") no-repeat right center / 15px 15px;
+  padding-right: 16px;
   background-position: calc(100% - 16px) center;
-  transition: .5s all ease;
+  transition: 0.5s all ease;
 }
 
 .contacto select.select-address {
-  background: url("images/arrow-select.svg") no-repeat right center / 15px 15px; 
-  padding-right: 16px; 
+  background: url("images/arrow-select.svg") no-repeat right center / 15px 15px;
+  padding-right: 16px;
   background-position: calc(100% - 16px) center;
-  transition: .5s all ease;
+  transition: 0.5s all ease;
 }
 
 .contacto select.select-address.focus-visible {
-  background: url("images/arrow-select-hover.svg") no-repeat right center / 15px 15px; 
-  padding-right: 16px; 
+  background: url("images/arrow-select-hover.svg") no-repeat right center / 15px
+    15px;
+  padding-right: 16px;
   background-position: calc(100% - 16px) center;
 }
 
@@ -451,7 +482,7 @@
 }
 
 .footer {
-  background-color: #2d26a2;
+  background-color: #1C3295;
   padding: 45.98px 0;
 
   .logo-wrapper {
@@ -460,12 +491,13 @@
 
   .logo {
     margin-bottom: 45px;
+    width: 60%;
   }
 
   .contact-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
     align-items: center;
     justify-content: center;
   }
@@ -483,7 +515,7 @@
 
   .fa-brands {
     background-color: white;
-    color: #2d26a2;
+    color: #1C3295;
     width: 36px;
     height: 36px;
     font-size: 16px;
@@ -514,4 +546,32 @@
   font-weight: 400;
   color: white;
   text-align: center;
+}
+
+.alert {
+  border: none;
+  border-radius: unset;
+  box-shadow: 10px 15px 30px gray;
+  display: none;
+  font-family: "Futura-Regular";
+  font-size: 1.8em;
+  left: 50%;
+  margin: 0;
+  max-width: 50vw;
+  padding: 1em 1.5em;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+
+  .error {
+    background-color: red;
+    color: white;
+  }
+
+  .success {
+    background-color: rgb(93, 90, 136);
+    color: white;
+  }
 }

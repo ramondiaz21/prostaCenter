@@ -12,13 +12,24 @@ document.addEventListener('DOMContentLoaded', function () {
   var availableHeight = window.innerHeight - navbarHeight;
 
   // Aplica la altura al elemento .navbar-collapse.collapsing
-  document.querySelector('.navbar-collapse.collapsing').style.height = availableHeight + 'px';
-  document.querySelector('.navbar-collapse.show').style.height = availableHeight + 'px';
+  var collapsingElement = document.querySelector('.navbar-collapse.collapsing');
+  if (collapsingElement) {
+    collapsingElement.style.height = availableHeight + 'px';
+  }
 
-  
-
-  
+  var showElement = document.querySelector('.navbar-collapse.show');
+  if (showElement) {
+    showElement.style.height = availableHeight + 'px';
+  }
 });
+
+function alertMessage() {
+	var alert = $('.alert');
+
+	$(alert).slideToggle(600, 'easeInOutCirc', function () {
+    $(this).delay(5000).slideToggle(600, 'easeInOutCirc');
+  });
+}
 
 $(window).scroll(function() {
   if ($(this).scrollTop() > 500) {

@@ -61,10 +61,12 @@
 
   .hero .title {
     text-align: left;
+    font-size: 46px;
   }
 
   .hero .text {
     text-align: left;
+    font-size: 18px;
   }
 
   .hero .btn-white {
@@ -110,6 +112,7 @@
     width: 100%;
     justify-content: center;
     margin-top: 55px;
+    font-size: 16px;
     border-radius: 100px;
   }
 
@@ -176,6 +179,10 @@
     flex-direction: row;
   }
 
+  .otros-servicios .text {
+    font-size: 19px;
+  }
+
   .otros-servicios .otro-servicio-wrapper {
     gap: 10px;
     display: flex;
@@ -222,8 +229,13 @@
     flex-direction: column;
   }
 
+  .contacto .text {
+    font-size: 16px;
+  }
+
   .select-address {
     font-size: 18px;
+    width: 320px;
   }
 
   .footer {
@@ -239,6 +251,7 @@
   .footer .contact-wrapper {
     flex-direction: row;
     gap: 70px;
+    justify-content: space-between;
   }
   .footer .logo-wrapper {
     text-align: left;
@@ -250,5 +263,6 @@
 
   .footer .copyright-text {
     text-align: right;
+    margin-bottom: 0;
   }
 }
