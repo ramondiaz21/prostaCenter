@@ -566,12 +566,12 @@
   z-index: 99999;
 }
 
-.alert .error {
+.alert.error {
   background-color: red;
   color: white;
 }
 
-.alert .success {
+.alert.success {
   background-color: rgb(93, 90, 136);
   color: white;
 }
