@@ -85,4 +85,18 @@ $(document).ready(function () {
     servicios.slice(elementosIniciales).slideToggle();
     $(this).text($(this).text() === 'Ver más' ? 'Ver menos' : 'Ver más');
   });
+
+   // Obtén todos los enlaces dentro de la barra de navegación móvil
+   var mobileNavLinks = document.querySelectorAll('.only-mobile .navbar-nav a');
+
+   // Agrega un evento de clic a cada enlace
+   mobileNavLinks.forEach(function (link) {
+     link.addEventListener('click', function () {
+       // Cierra el menú desplegable al hacer clic en un enlace
+       var mobileNavbar = document.querySelector('.only-mobile .navbar-collapse');
+       if (mobileNavbar.classList.contains('show')) {
+         mobileNavbar.classList.remove('show');
+       }
+     });
+   });
 });
