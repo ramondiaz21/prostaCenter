@@ -308,34 +308,36 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-12 doctor-wrapper">
-          <div class="image-wrapper">
-            <img class="" src="images/doctors.svg" alt="" />
-            <!-- Ajusta los enlaces para incluir un objeto doctorData -->
-            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="shadow" onclick="setActiveDoctor({
-              name: 'Dr. Karian Trujillo Ríos',
-              position: 'Principal, Colima',
-              content: [
-                'Cirujano Urólogo.',
-                'Alta Especialidad Endourología (Cirugía de mínima Invasión).',
-                'Certificado por el Consejo Mexicano de Urología.',
-                'Universidad de Colima.',
-                'Universidad de Guadalajara.',
-                'Universidad Autónoma de México.',
-                'Certificado por el Consejo Mexicano de Urología.'
-              ],
-              socials: [
-                { link: 'enlace-facebook', icon: 'fa-brands fa-facebook-f' },
-                { link: 'enlace-twitter', icon: 'fa-brands fa-twitter' },
-                { link: 'enlace-instagram', icon: 'fa-brands fa-instagram' },
-                { link: 'enlace-linkedin', icon: 'fa-brands fa-linkedin-in' }
-              ]
-            });">
+          <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="" onclick="setActiveDoctor({
+            name: 'Dr. Karian Trujillo Ríos',
+            position: 'Principal, Colima',
+            content: [
+              'Cirujano Urólogo.',
+              'Alta Especialidad Endourología (Cirugía de mínima Invasión).',
+              'Certificado por el Consejo Mexicano de Urología.',
+              'Universidad de Colima.',
+              'Universidad de Guadalajara.',
+              'Universidad Autónoma de México.',
+              'Certificado por el Consejo Mexicano de Urología.'
+            ],
+            socials: [
+              { link: 'enlace-facebook', icon: 'fa-brands fa-facebook-f' },
+              { link: 'enlace-twitter', icon: 'fa-brands fa-twitter' },
+              { link: 'enlace-instagram', icon: 'fa-brands fa-instagram' },
+              { link: 'enlace-linkedin', icon: 'fa-brands fa-linkedin-in' }
+            ]
+          });">
+            <div class="image-wrapper">
+              <img class="" src="images/doctors.svg" alt="" />
+              <!-- Ajusta los enlaces para incluir un objeto doctorData -->
+              <div class="shadow">
               <div class="shadow-text-wrapper">
                 <img src="images/doctor-hover.svg" alt="" />
                 <p class="shadow-text">Ver curriculum</p>
               </div>
-            </a>
-          </div>
+            </div>
+            </div>
+          </a>
           <div class="text-wrapper">
             <h3 class="sub-subtitle">Dr. Karian Trujillo Ríos</h3>
             <h4 class="position-text">Principal, Colima</h4>
@@ -756,7 +758,7 @@
           <img src="images/Check-Circle.svg" alt="" />
           <p class="text large-text">Enfermedades de transmisión sexual (ETS).</p>
         </div>
-        
+
         <div class="otro-servicio-wrapper">
           <img src="images/Check-Circle.svg" alt="" />
           <p class="text large-text">Virus del papiloma humano (VPH).</p>
