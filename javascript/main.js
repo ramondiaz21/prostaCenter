@@ -85,3 +85,13 @@ selectElementContacto.addEventListener('blur', function() {
 selectElementContacto.addEventListener('focus', function() {
   this.classList.add('focus-visible'); // Agrega la clase focus-visible
 });
+
+$('a[href^="#"]').on('click', function(event) {
+  var target = $(this.getAttribute('href'));
+  if (target.length) {
+    event.preventDefault();
+    $('html, body').stop().animate({
+      scrollTop: target.offset().top - 80
+    }, 0);
+  }
+});

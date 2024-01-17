@@ -45,7 +45,7 @@
     font-style: normal;
     font-weight: 600;
     color: #4b3fff;
-    font-family: "Futura PT Book";
+    font-family: "FuturaBook";
   }
 }
 
@@ -132,7 +132,7 @@
     font-weight: 700;
     color: white;
     text-align: center;
-    font-family: "Futura PT Bold";
+    font-family: "FuturaBold";
   }
 
   .text {
@@ -140,7 +140,7 @@
     color: white;
     margin: 15px 0 45px 0;
     text-align: center;
-    font-family: "Futura PT Book";
+    font-family: "FuturaBook";
   }
 
   .side {
@@ -160,7 +160,7 @@
 
   .text {
     margin: 8px 0 78px 0;
-    font-family: "Futura PT Book";
+    font-family: "FuturaBook";
   }
 
   .accordion-item {
@@ -176,7 +176,7 @@
     font-weight: 700;
     gap: 10px;
     color: #5d5a88;
-    font-family: "Futura PT Demi";
+    font-family: "FuturaDemi";
     z-index: 0;
   }
 
@@ -230,7 +230,7 @@
   }
 
   .position-text {
-    font-family: "Futura PT Book";
+    font-family: "FuturaBook";
     font-size: 16.849px;
     font-style: normal;
     font-weight: 500;
@@ -264,6 +264,128 @@
 
   .row {
     row-gap: 32px;
+  }
+
+  .image-wrapper {
+    border-radius: 16.849px;
+    background: #f9f9ff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    position: relative;
+  }
+}
+
+.acerca .doctor-wrapper {
+  position: relative;
+}
+
+.acerca .shadow {
+  opacity: 0;
+  transition: 0.7s all ease;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.acerca .shadow:hover {
+  opacity: 1;
+}
+
+.acerca .shadow-text-wrapper {
+  background-color: #1c3295;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 100px 15px;
+  position: relative;
+  border-radius: 16.849px;
+}
+
+.acerca .shadow-text-wrapper img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.acerca .shadow-text {
+  font-family: "FuturaDemi";
+  font-size: 28px;
+  font-style: normal;
+  color: white;
+  z-index: 1;
+}
+
+.modal {
+  padding: 0;
+
+  .modal-dialog {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .modal-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-body {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+  }
+
+  .photo-wrapper {
+    width: 30%;
+    background-color: #f9f9ff;
+    text-align: center;
+    height: 100%;
+    display: f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16.849px;
+  }
+
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+  }
+
+  button {
+    color: #4d73fb;
+    font-size: 18px;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: 600;
+    background-color: transparent;
+    border:none;
+  }
+
+  li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #9795b5;
+    text-align: left;
+  }
+
+  .social-icons-wrapper {
+    margin-top: 80px;
   }
 }
 
@@ -362,7 +484,7 @@
   padding: 60px 0 82px 0;
 
   .bold {
-    font-family: "Futura PT Demi";
+    font-family: "FuturaDemi";
     color: #8d8ba7;
   }
 
@@ -446,21 +568,21 @@
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background: url("images/arrow-select.svg") no-repeat right center / 15px 15px;
+  background: url("../images/arrow-select.svg") no-repeat right center / 15px 15px;
   padding-right: 16px;
   background-position: calc(100% - 16px) center;
   transition: 0.5s all ease;
 }
 
 .contacto select.select-address {
-  background: url("images/arrow-select.svg") no-repeat right center / 15px 15px;
+  background: url("../images/arrow-select.svg") no-repeat right center / 15px 15px;
   padding-right: 16px;
   background-position: calc(100% - 16px) center;
   transition: 0.5s all ease;
 }
 
 .contacto select.select-address.focus-visible {
-  background: url("images/arrow-select-hover.svg") no-repeat right center / 15px
+  background: url("../images/arrow-select-hover.svg") no-repeat right center / 15px
     15px;
   padding-right: 16px;
   background-position: calc(100% - 16px) center;
