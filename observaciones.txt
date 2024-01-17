@@ -1,3 +1,1 @@
-
--Contacto al igual que mobile con el dropdown
--falto sonora, se cambiara el mapa con el tooltip del estado?
+en vez de hover, que sea click en mobile
