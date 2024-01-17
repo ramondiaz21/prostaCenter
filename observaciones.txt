@@ -1,3 +1,0 @@
-en vez de hover, que sea click en mobile
-en mobile, el tema de servicios que sea un modal y en escritorio siga con el hover
-

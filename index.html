@@ -276,7 +276,8 @@
             </div>
           </div>
         </div>
-        <div class="modal fade" id="serviciosModal" tabindex="-1" aria-labelledby="serviciosModalLabel" aria-hidden="true">
+        <div class="modal fade" id="serviciosModal" tabindex="-1" aria-labelledby="serviciosModalLabel"
+          aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
               <!-- Contenido del modal para servicios -->
@@ -286,8 +287,9 @@
             </div>
           </div>
         </div>
-        
-        <div class="modal fade" id="doctoresModal" tabindex="-1" aria-labelledby="doctoresModalLabel" aria-hidden="true">
+
+        <div class="modal fade" id="doctoresModal" tabindex="-1" aria-labelledby="doctoresModalLabel"
+          aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
               <!-- Contenido del modal para doctores -->
@@ -297,7 +299,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper only-desktop">
+        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper">
           <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="" onclick="setActiveDoctor({
             name: 'Dr. Karian Trujillo Ríos',
             position: 'Principal, Colima',
@@ -347,54 +349,9 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper only-mobile">
+        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper">
+          <!-- Ajusta los enlaces para incluir un objeto doctorData -->
           <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="" onclick="setActiveDoctor({
-            name: 'Dr. Karian Trujillo Ríos',
-            position: 'Principal, Colima',
-            content: [
-              'Cirujano Urólogo.',
-              'Alta Especialidad Endourología (Cirugía de mínima Invasión).',
-              'Certificado por el Consejo Mexicano de Urología.',
-              'Universidad de Colima.',
-              'Universidad de Guadalajara.',
-              'Universidad Autónoma de México.',
-              'Certificado por el Consejo Mexicano de Urología.'
-            ],
-            socials: [
-              { link: 'enlace-facebook', icon: 'fa-brands fa-facebook-f' },
-              { link: 'enlace-twitter', icon: 'fa-brands fa-twitter' },
-              { link: 'enlace-instagram', icon: 'fa-brands fa-instagram' },
-              { link: 'enlace-linkedin', icon: 'fa-brands fa-linkedin-in' }
-            ]
-          });">
-            <div class="image-wrapper">
-              <img class="" src="images/doctors.svg" alt="" />
-            </div>
-          </a>
-          <div class="text-wrapper">
-            <h3 class="sub-subtitle">Dr. Karian Trujillo Ríos</h3>
-            <h4 class="position-text">Principal, Colima</h4>
-            <div class="social-icons-wrapper">
-              <a href="">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper only-desktop">
-          <div class="image-wrapper">
-            <img class="" src="images/doctors.svg" alt="" />
-            <!-- Ajusta los enlaces para incluir un objeto doctorData -->
-            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="shadow" onclick="setActiveDoctor({
               name: 'Dr. Julio Héctor Bedolla',
               position: 'Manzanillo',
               content: [
@@ -412,52 +369,15 @@
                 { link: 'enlace-linkedin', icon: 'fa-brands fa-linkedin-in' }
               ]
             });">
-              <div class="shadow-text-wrapper">
-                <img src="images/doctor-hover.svg" alt="" />
-                <p class="shadow-text">Ver curriculum</p>
-              </div>
-            </a>
-          </div>
-          <div class="text-wrapper">
-            <h3 class="sub-subtitle">Dr. Julio Héctor Bedolla</h3>
-            <h4 class="position-text">Manzanillo</h4>
-            <div class="social-icons-wrapper">
-              <a href="">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper only-mobile">
-          <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="" onclick="setActiveDoctor({
-            name: 'Dr. Julio Héctor Bedolla',
-            position: 'Manzanillo',
-            content: [
-              'Cirujano Urólogo.',
-              'Egresado de la Universidad Nacional Autónoma de México (UNAM).',
-              'Especialidad en Urología en el Centro Médico Nacional de Occidente IMSS.',
-              'Recertificado por el Consejo Nacional Mexicano de Urología.',
-              'Socio del Colegio Mexicano de Urología (CMU).',
-              'Socio del Colegio de Urólogos de Colima.'
-            ],
-            socials: [
-              { link: 'enlace-facebook', icon: 'fa-brands fa-facebook-f' },
-              { link: 'enlace-twitter', icon: 'fa-brands fa-twitter' },
-              { link: 'enlace-instagram', icon: 'fa-brands fa-instagram' },
-              { link: 'enlace-linkedin', icon: 'fa-brands fa-linkedin-in' }
-            ]
-          });">
             <div class="image-wrapper">
               <img class="" src="images/doctors.svg" alt="" />
+              <!-- Ajusta los enlaces para incluir un objeto doctorData -->
+              <div class="shadow">
+                <div class="shadow-text-wrapper">
+                  <img src="images/doctor-hover.svg" alt="" />
+                  <p class="shadow-text">Ver curriculum</p>
+                </div>
+              </div>
             </div>
           </a>
           <div class="text-wrapper">
@@ -479,10 +399,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper only-desktop">
-          <div class="image-wrapper">
-            <img class="" src="images/doctors.svg" alt="" />
-            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="shadow" onclick="setActiveDoctor({
+        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper">
+          <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="" onclick="setActiveDoctor({
               name: 'Dr. Jaime Arturo Hernández',
               position: 'Pto. Vallarta',
               content: [
@@ -501,53 +419,15 @@
                 { link: 'enlace-linkedin', icon: 'fa-brands fa-linkedin-in' }
               ]
             });">
-              <div class="shadow-text-wrapper">
-                <img src="images/doctor-hover.svg" alt="" />
-                <p class="shadow-text">Ver curriculum</p>
-              </div>
-            </a>
-          </div>
-          <div class="text-wrapper">
-            <h3 class="sub-subtitle">Dr. Jaime Arturo Hernández</h3>
-            <h4 class="position-text">Pto. Vallarta</h4>
-            <div class="social-icons-wrapper">
-              <a href="">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper only-mobile">
-          <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="" onclick="setActiveDoctor({
-            name: 'Dr. Jaime Arturo Hernández',
-            position: 'Pto. Vallarta',
-            content: [
-              'Cirujano Urólogo.',
-              'Médico Cirujano egresado del ITESM Campus Monterrey.',
-              'Especialidad de Urología en la Universidad de Guadalajara.',
-              'Certificado por el Consejo Mexicano de Urología.',
-              'Miembro de la American Urological Association.',
-              'Miembro de la European Association of Urology.',
-              'Miembro de la Sociedad Internacional de Endourología.'
-            ],
-            socials: [
-              { link: 'enlace-facebook', icon: 'fa-brands fa-facebook-f' },
-              { link: 'enlace-twitter', icon: 'fa-brands fa-twitter' },
-              { link: 'enlace-instagram', icon: 'fa-brands fa-instagram' },
-              { link: 'enlace-linkedin', icon: 'fa-brands fa-linkedin-in' }
-            ]
-          });">
             <div class="image-wrapper">
               <img class="" src="images/doctors.svg" alt="" />
+              <!-- Ajusta los enlaces para incluir un objeto doctorData -->
+              <div class="shadow">
+                <div class="shadow-text-wrapper">
+                  <img src="images/doctor-hover.svg" alt="" />
+                  <p class="shadow-text">Ver curriculum</p>
+                </div>
+              </div>
             </div>
           </a>
           <div class="text-wrapper">
@@ -569,10 +449,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper only-desktop">
-          <div class="image-wrapper">
-            <img class="" src="images/doctors.svg" alt="" />
-            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="shadow" onclick="setActiveDoctor({
+        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper">
+          <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="" onclick="setActiveDoctor({
               name: 'Dr. Ramiro Mercado Gallardo',
               position: 'SLRC, Sonora',
               content: [
@@ -589,53 +467,15 @@
                 { link: 'enlace-linkedin', icon: 'fa-brands fa-linkedin-in' }
               ]
             });">
-              <div class="shadow-text-wrapper">
-                <img src="images/doctor-hover.svg" alt="" />
-                <p class="shadow-text">Ver curriculum</p>
-              </div>
-            </a>
-          </div>
-          <div class="text-wrapper">
-            <h3 class="sub-subtitle">Dr. Ramiro Mercado Gallardo</h3>
-            <h4 class="position-text">SLRC, Sonora</h4>
-            <div class="social-icons-wrapper">
-              <a href="">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper only-mobile">
-          <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="" onclick="setActiveDoctor({
-            name: 'Dr. Ramiro Mercado Gallardo',
-            position: 'SLRC, Sonora',
-            content: [
-              'Cirujano Urólogo.',
-              'Médico Cirujano egresado de la Universidad Autónoma de Guadalajara.',
-              'Sede Hospital Valentín Gómez Farías por la Universidad de Guadalajara.',
-              'Sociedades SMU, CMU, SIU, EAU.',
-              'Alta Especialidad en Urología Pediátrica.'
-            ],
-            socials: [
-              { link: 'enlace-facebook', icon: 'fa-brands fa-facebook-f' },
-              { link: 'enlace-twitter', icon: 'fa-brands fa-twitter' },
-              { link: 'enlace-instagram', icon: 'fa-brands fa-instagram' },
-              { link: 'enlace-linkedin', icon: 'fa-brands fa-linkedin-in' }
-            ]
-          });">
             <div class="image-wrapper">
               <img class="" src="images/doctors.svg" alt="" />
-
-
+              <!-- Ajusta los enlaces para incluir un objeto doctorData -->
+              <div class="shadow">
+                <div class="shadow-text-wrapper">
+                  <img src="images/doctor-hover.svg" alt="" />
+                  <p class="shadow-text">Ver curriculum</p>
+                </div>
+              </div>
             </div>
           </a>
           <div class="text-wrapper">
@@ -657,10 +497,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper only-desktop">
-          <div class="image-wrapper">
-            <img class="" src="images/doctors.svg" alt="" />
-            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="shadow" onclick="setActiveDoctor({
+        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper">
+          <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="" onclick="setActiveDoctor({
               name: 'José Cisneros',
               position: 'Mexicali',
               content: [
@@ -673,47 +511,15 @@
                 { link: 'enlace-linkedin', icon: 'fa-brands fa-linkedin-in' }
               ]
             });">
-              <div class="shadow-text-wrapper">
-                <img src="images/doctor-hover.svg" alt="" />
-                <p class="shadow-text">Ver curriculum</p>
-              </div>
-            </a>
-          </div>
-          <div class="text-wrapper">
-            <h3 class="sub-subtitle">José Cisneros</h3>
-            <h4 class="position-text">Enfermero, Mexicali</h4>
-            <div class="social-icons-wrapper">
-              <a href="">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 doctor-wrapper only-mobile">
-          <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="" onclick="setActiveDoctor({
-            name: 'José Cisneros',
-            position: 'Mexicali',
-            content: [
-              'Lorem'
-            ],
-            socials: [
-              { link: 'enlace-facebook', icon: 'fa-brands fa-facebook-f' },
-              { link: 'enlace-twitter', icon: 'fa-brands fa-twitter' },
-              { link: 'enlace-instagram', icon: 'fa-brands fa-instagram' },
-              { link: 'enlace-linkedin', icon: 'fa-brands fa-linkedin-in' }
-            ]
-          });">
             <div class="image-wrapper">
               <img class="" src="images/doctors.svg" alt="" />
+              <!-- Ajusta los enlaces para incluir un objeto doctorData -->
+              <div class="shadow">
+                <div class="shadow-text-wrapper">
+                  <img src="images/doctor-hover.svg" alt="" />
+                  <p class="shadow-text">Ver curriculum</p>
+                </div>
+              </div>
             </div>
           </a>
           <div class="text-wrapper">
@@ -762,7 +568,7 @@
             </div>
           </div>
         </div>
-       
+
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
             <img src="images/Image-icon-(1).png" alt="" />
@@ -775,7 +581,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
             <img src="images/Image-icon-(1).png" alt="" />
@@ -787,7 +593,7 @@
             </div>
           </div>
         </div>
-       
+
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
             <img src="images/Image-icon-(1).png" alt="" />
@@ -800,7 +606,7 @@
             </div>
           </div>
         </div>
-       
+
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
             <img src="images/Image-icon-(1).png" alt="" />
@@ -813,7 +619,7 @@
             </div>
           </div>
         </div>
-       
+
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
             <img src="images/Image-icon-(1).png" alt="" />
@@ -826,7 +632,7 @@
             </div>
           </div>
         </div>
-       
+
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
             <img src="images/Image-icon-(1).png" alt="" />
@@ -839,7 +645,7 @@
             </div>
           </div>
         </div>
-       
+
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
             <img src="images/Image-icon-(1).png" alt="" />
@@ -851,7 +657,7 @@
             </div>
           </div>
         </div>
-       
+
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
             <img src="images/Image-icon-(1).png" alt="" />
@@ -864,7 +670,7 @@
             </div>
           </div>
         </div>
-       
+
       </div>
       <div class="button-wrapper w-100 text-center">
         <button class="btn btn-blue" id="verMasBtn">Ver más</button>
@@ -885,7 +691,7 @@
             </div>
           </div>
         </div>
-      
+
         <div class="col-lg-3 col-md-6 col-6">
           <div class="card-servicios">
             <img src="images/Image-icon-(1).png" alt="" />
@@ -898,7 +704,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="col-lg-3 col-md-6 col-6">
           <div class="card-servicios">
             <img src="images/Image-icon-(1).png" alt="" />
@@ -911,7 +717,7 @@
             </div>
           </div>
         </div>
-       
+
         <div class="col-lg-3 col-md-6 col-6">
           <div class="card-servicios">
             <img src="images/Image-icon-(1).png" alt="" />
@@ -924,7 +730,7 @@
             </div>
           </div>
         </div>
-       
+
       </div>
     </div>
   </section>
@@ -1161,7 +967,7 @@
   <script src="javascript/mail.js"></script>
   <!-- <script src="javascript/modals.js"></script>
   <script src="javascript/modalServicios.js"></script> -->
-  <script src="javascript/modalJunto.js"></script> 
+  <script src="javascript/modalJunto.js"></script>
 </body>
 
 </html>

@@ -305,4 +305,8 @@
   .servicios .shadow{
     display: flex;
   }
+
+  .acerca .doctor-wrapper .shadow {
+    display: flex;
+  }
 }

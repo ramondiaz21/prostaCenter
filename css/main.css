@@ -282,6 +282,10 @@
   position: relative;
 }
 
+.acerca .doctor-wrapper .shadow {
+  display: none;
+}
+
 .acerca .shadow {
   opacity: 0;
   transition: 0.7s all ease;
