@@ -488,7 +488,7 @@
   position: absolute;
   background-color: #1c3295;
   padding: 77px 15px;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 15px;
   justify-content: center;

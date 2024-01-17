@@ -77,42 +77,20 @@ $(document).ready(function () {
 
   const elementosIniciales = 4;
   const serviciosContainer = $('#serviciosContainer');
-  
-  function actualizarVisibilidad() {
-    const windowWidth = $(window).width();
-    const serviciosDesktop = serviciosContainer.children('.only-desktop-alt');
-    const serviciosMobile = serviciosContainer.children('.only-mobile-alt');
-  
-    if (windowWidth > 991.98) {
-      serviciosDesktop.hide().slice(0, elementosIniciales).show();
-      serviciosMobile.hide();
-    } else {
-      serviciosDesktop.hide();
-      serviciosMobile.hide().slice(0, elementosIniciales).show();
-    }
-  }
-  
-  $(document).ready(function () {
-    actualizarVisibilidad();
-  });
-  
-  $(window).on('resize', function () {
-    actualizarVisibilidad();
-  });
-  
+  const servicios = serviciosContainer.find('.card-servicios-wrapper');
+
+  // Ocultar elementos adicionales al principio
+  servicios.slice(elementosIniciales).hide();
+
+  // Manejar el evento de clic en el botón "Ver más"
   $('#verMasBtn').click(function () {
-    const serviciosDesktop = serviciosContainer.children('.only-desktop-alt');
-    const serviciosMobile = serviciosContainer.children('.only-mobile-alt');
-  
-    if ($(window).width() > 991.98) {
-      serviciosDesktop.slice(elementosIniciales).slideToggle();
-    } else {
-      serviciosMobile.slice(elementosIniciales).slideToggle();
-    }
-  
-    $(this).text($(this).text() === 'Ver más' ? 'Ver menos' : 'Ver más');
+    // Alternar la visibilidad de los elementos después del cuarto
+    servicios.slice(elementosIniciales).slideToggle();
+
+    // Cambiar el texto del botón
+    const buttonText = $(this).text();
+    $(this).text(buttonText === 'Ver más' ? 'Ver menos' : 'Ver más');
   });
-  
 
   // Obtén todos los enlaces dentro de la barra de navegación móvil
   var mobileNavLinks = document.querySelectorAll('.only-mobile .navbar-nav a');

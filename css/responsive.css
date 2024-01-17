@@ -1,6 +1,6 @@
 @media (min-width: 991.98px) {
   .altNav {
-    box-shadow:none;
+    box-shadow: none;
   }
 
   .only-desktop {
@@ -47,7 +47,7 @@
   .navbar .nav-link {
     font-size: 18px;
     font-style: normal;
-    color: #1C3295;;
+    color: #1c3295;
   }
 
   .navbar.only-desktop {
@@ -81,8 +81,8 @@
   }
 
   .hero .play {
-    width: 75px!important;
-    min-width: 0!important;
+    width: 75px !important;
+    min-width: 0 !important;
     padding: 0;
     height: 75px;
     display: flex;
@@ -297,8 +297,12 @@
   .servicios .card-subtitle {
     font-size: 28px;
   }
-  
+
   .servicios .card-text {
     font-size: 16px;
+  }
+
+  .servicios .shadow{
+    display: flex;
   }
 }
