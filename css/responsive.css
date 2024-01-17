@@ -269,10 +269,12 @@
 
   .modal .modal-body {
     flex-direction: row;
+    align-items: flex-start;
   }
 
   .modal .photo-wrapper {
     width: 30%;
+    max-height: 700px;
   }
 
   .servicios .card-subtitle {
