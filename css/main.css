@@ -340,6 +340,7 @@
 
   .modal-body {
     display: flex;
+    flex-direction: column;
     gap: 45px;
     justify-content: center;
     align-items: center;
@@ -347,7 +348,7 @@
   }
 
   .photo-wrapper {
-    width: 30%;
+    width: 100%;
     background-color: #f9f9ff;
     text-align: center;
     height: 100%;

@@ -266,4 +266,12 @@
     text-align: right;
     margin-bottom: 0;
   }
+
+  .modal .modal-body {
+    flex-direction: row;
+  }
+
+  .modal .photo-wrapper {
+    width: 30%;
+  }
 }
