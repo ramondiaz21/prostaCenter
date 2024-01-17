@@ -291,6 +291,7 @@
 
   .modal .info-wrapper {
     justify-content: center;
+    max-width: 700px;
   }
 
   .servicios .card-subtitle {

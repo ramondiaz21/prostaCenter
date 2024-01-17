@@ -417,6 +417,11 @@
 
 .modal .position-text {
   margin: 0 0 16px 0;
+  text-align: left;
+}
+
+.modal .acerca .position-text {
+  text-align: left;
 }
 
 .servicios {
@@ -770,4 +775,8 @@
 .alert.success {
   background-color: rgb(93, 90, 136);
   color: white;
+}
+
+.d-none {
+  display: none!important;
 }

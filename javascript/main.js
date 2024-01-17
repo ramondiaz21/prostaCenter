@@ -42,7 +42,7 @@ $(document).ready(function () {
     const selectedValue = selectElement.val();
     const selectedSucursal = $(`#${selectedValue}-address`);
     const selectedImage = $(`.map-wrapper .${selectedValue}`);
-    
+
     if (selectedSucursal.length && selectedImage.length) {
       selectedSucursal.css("display", "flex");
       selectedImage.css("display", "block");
@@ -75,28 +75,56 @@ $(document).ready(function () {
     }
   });
 
-  // Ver más / Ver menos
   const elementosIniciales = 4;
   const serviciosContainer = $('#serviciosContainer');
-  const servicios = serviciosContainer.children();
-  servicios.slice(elementosIniciales).css('display', 'none');
-
+  
+  function actualizarVisibilidad() {
+    const windowWidth = $(window).width();
+    const serviciosDesktop = serviciosContainer.children('.only-desktop-alt');
+    const serviciosMobile = serviciosContainer.children('.only-mobile-alt');
+  
+    if (windowWidth > 991.98) {
+      serviciosDesktop.hide().slice(0, elementosIniciales).show();
+      serviciosMobile.hide();
+    } else {
+      serviciosDesktop.hide();
+      serviciosMobile.hide().slice(0, elementosIniciales).show();
+    }
+  }
+  
+  $(document).ready(function () {
+    actualizarVisibilidad();
+  });
+  
+  $(window).on('resize', function () {
+    actualizarVisibilidad();
+  });
+  
   $('#verMasBtn').click(function () {
-    servicios.slice(elementosIniciales).slideToggle();
+    const serviciosDesktop = serviciosContainer.children('.only-desktop-alt');
+    const serviciosMobile = serviciosContainer.children('.only-mobile-alt');
+  
+    if ($(window).width() > 991.98) {
+      serviciosDesktop.slice(elementosIniciales).slideToggle();
+    } else {
+      serviciosMobile.slice(elementosIniciales).slideToggle();
+    }
+  
     $(this).text($(this).text() === 'Ver más' ? 'Ver menos' : 'Ver más');
   });
+  
 
-   // Obtén todos los enlaces dentro de la barra de navegación móvil
-   var mobileNavLinks = document.querySelectorAll('.only-mobile .navbar-nav a');
+  // Obtén todos los enlaces dentro de la barra de navegación móvil
+  var mobileNavLinks = document.querySelectorAll('.only-mobile .navbar-nav a');
 
-   // Agrega un evento de clic a cada enlace
-   mobileNavLinks.forEach(function (link) {
-     link.addEventListener('click', function () {
-       // Cierra el menú desplegable al hacer clic en un enlace
-       var mobileNavbar = document.querySelector('.only-mobile .navbar-collapse');
-       if (mobileNavbar.classList.contains('show')) {
-         mobileNavbar.classList.remove('show');
-       }
-     });
-   });
+  // Agrega un evento de clic a cada enlace
+  mobileNavLinks.forEach(function (link) {
+    link.addEventListener('click', function () {
+      // Cierra el menú desplegable al hacer clic en un enlace
+      var mobileNavbar = document.querySelector('.only-mobile .navbar-collapse');
+      if (mobileNavbar.classList.contains('show')) {
+        mobileNavbar.classList.remove('show');
+      }
+    });
+  });
 });
