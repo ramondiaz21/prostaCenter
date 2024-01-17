@@ -175,3 +175,16 @@ button:focus {
   src: url("../futura/FuturaPTMedium.otf");
 }
 
+@font-face {
+  font-family: "FuturaBook";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../futura/FuturaPTBook.otf");
+}
+
+@font-face {
+  font-family: "FuturaLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../futura/FuturaPTLight.otf");
+}
