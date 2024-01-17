@@ -341,10 +341,15 @@
   .modal-body {
     display: flex;
     flex-direction: column;
-    gap: 45px;
+    gap: 16px;
     justify-content: center;
     align-items: center;
     padding: 3rem 1rem;
+    align-items: flex-start;
+  }
+
+  .photo-wrapper-general {
+    width: 100%;
   }
 
   .photo-wrapper {
@@ -367,16 +372,6 @@
     height: 100%;
   }
 
-  button {
-    color: #4d73fb;
-    font-size: 18px;
-    text-decoration: underline;
-    font-style: normal;
-    font-weight: 600;
-    background-color: transparent;
-    border: none;
-  }
-
   li {
     font-size: 16px;
     font-style: normal;
@@ -385,9 +380,42 @@
     text-align: left;
   }
 
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
   .social-icons-wrapper {
     margin-top: 80px;
   }
+}
+
+.modal .btn-secondary {
+  padding: 7px 25px;
+  min-width: 100px;
+  max-width: 100%;
+  border-radius: 100px;
+  background-color: #f2f1fa;
+  border:none;
+  color: #8d8ba7;
+}
+
+.modal .only-desktop {
+  color: #4d73fb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+} 
+
+.modal .sub-subtitle {
+  margin: 0 0 16px 0;
+}
+
+.modal .position-text {
+  margin: 0 0 16px 0;
 }
 
 .servicios {

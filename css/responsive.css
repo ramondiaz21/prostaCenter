@@ -168,6 +168,10 @@
     padding: 120px 0;
   }
 
+  .otros-servicios .large-text {
+    max-width: 190px;
+  }
+
   .otros-servicios .subtitle {
     text-align: center;
   }
@@ -273,8 +277,20 @@
   }
 
   .modal .photo-wrapper {
-    width: 30%;
     max-height: 700px;
+    max-width: 500px;
+  }
+
+  .modal .photo-wrapper-general {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    max-width: 500px;
+    align-items: center;
+  }
+
+  .modal .info-wrapper {
+    justify-content: center;
   }
 
   .servicios .card-subtitle {

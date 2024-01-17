@@ -13,11 +13,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Actualiza dinámicamente el contenido del modal
     modalBody.innerHTML = `
+    <button type="button" class="only-mobile btn btn-secondary" data-bs-dismiss="modal">< Volver</button>
+    <div class="photo-wrapper-general">
       <div class="photo-wrapper">
         <img src="images/doctors.svg" alt="">
       </div>
+      </div>
       <div class="info-wrapper">
-        <button type="button" class="" data-bs-dismiss="modal">< Volver</button>
+        <button type="button" class="only-desktop" data-bs-dismiss="modal">< Volver</button>
         <h5 class="sub-subtitle">${name}</h5>
         <h6 class="position-text">${position}</h6>
         <ul>

@@ -1,7 +1,5 @@
 <svg width="28" height="23" viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Menu">
-<line id="Line 1" x1="26.9995" y1="1.41357" x2="1.56814" y2="1.41357" stroke="#4B3FFF" stroke-width="2" stroke-linecap="round"/>
-<line id="Line 2" x1="27" y1="11.4321" x2="1.56863" y2="11.4321" stroke="#4B3FFF" stroke-width="2" stroke-linecap="round"/>
-<line id="Line 3" x1="27" y1="21.3623" x2="1.56863" y2="21.3623" stroke="#4B3FFF" stroke-width="2" stroke-linecap="round"/>
-</g>
+<line x1="26.9995" y1="1.41357" x2="1.56814" y2="1.41357" stroke="#1C3295" stroke-width="2" stroke-linecap="round"/>
+<line x1="27" y1="11.4321" x2="1.56863" y2="11.4321" stroke="#1C3295" stroke-width="2" stroke-linecap="round"/>
+<line x1="27" y1="21.3623" x2="1.56863" y2="21.3623" stroke="#1C3295" stroke-width="2" stroke-linecap="round"/>
 </svg>
