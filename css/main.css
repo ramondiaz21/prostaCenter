@@ -44,7 +44,7 @@
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
-    color: #4b3fff;
+    color: #2d26a2;
     font-family: "FuturaBook";
   }
 }
@@ -603,8 +603,8 @@
 
   .select-address {
     border: 1px solid #0000001a;
-    color: #5533ff;
-    font-family: "DM Sans", sans-serif;
+    color: #2d26a2;
+    font-family: "FuturaBook";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -665,8 +665,8 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .select-address::-ms-expand {
     border: none !important;
-    color: #5533ff;
-    font-family: "DM Sans", sans-serif;
+    color: #2d26a2;
+    font-family: "FuturaBook";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
