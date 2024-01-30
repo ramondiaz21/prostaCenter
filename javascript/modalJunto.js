@@ -8,10 +8,11 @@ document.addEventListener('DOMContentLoaded', function () {
     event.preventDefault();
 
     var servicioData = {
-      name: $(this).find('.card-servicios-title').text(),
-      position: $(this).find('.card-subtitle').text(),
-      content: [$(this).find('.card-text').text()],
-      socials: []
+      name: $(this).find(".card-servicios-title").text(),
+      position: $(this).find(".card-subtitle").text(),
+      content: [$(this).find(".card-text").text()],
+      socials: [],
+      image: $(this).find(".photo-wrapper-img").text(),
     };
 
     // Actualiza el contenido del modal de servicios
@@ -19,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <button type="button" class="only-mobile btn btn-secondary" data-bs-dismiss="modal">< Volver</button>
       <div class="photo-wrapper-general">
         <div class="photo-wrapper">
-          <img src="images/doctors.svg" alt="">
+          <img class="photo-wrapper-img" src="images/${servicioData.image}" alt="">
         </div>
       </div>
       <div class="info-wrapper">
@@ -60,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <button type="button" class="only-mobile btn btn-secondary" data-bs-dismiss="modal">< Volver</button>
       <div class="photo-wrapper-general">
         <div class="photo-wrapper">
-          <img src="images/doctors.svg" alt="">
+          <img class="photo-wrapper-img" src="images/${doctorData.image}" alt="">
         </div>
       </div>
       <div class="info-wrapper">
@@ -68,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <h5 class="sub-subtitle">${doctorData.name}</h5>
         <h6 class="position-text">${doctorData.position}</h6>
         <ul>
-          ${doctorData.content.map(item => `<li>${item}</li>`).join('')}
+          ${doctorData.content.map((item) => `<li>${item}</li>`).join("")}
         </ul>
         <div class="social-icons-wrapper">
           ${generateSocialIcons(doctorData.socials)}

@@ -53,15 +53,25 @@
   .navbar.only-desktop {
     background-color: white;
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
   }
 
   .hero .text-side {
     align-items: flex-start;
   }
 
+  .hero {
+    height: 130dvh;
+    background-image: url("../images/hero.jpg");
+    align-items: flex-start;
+    max-height: 1000px!important;
+    padding: 70px 0 0 0;
+  }
+
   .hero .title {
     text-align: left;
     font-size: 46px;
+    padding-top: 3em;
   }
 
   .hero .text {
@@ -122,7 +132,7 @@
   }
 
   .acerca .text {
-    max-width: 717px;
+    max-width: 615px;
     margin: 16px auto 60px auto;
   }
 

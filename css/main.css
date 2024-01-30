@@ -6,8 +6,8 @@
   background-color: white;
   padding: 25px 0;
   position: fixed;
-  width: 100%;
   top: 0;
+  width: 100%;
   z-index: 1;
 
   .navbar-toggler {
@@ -15,45 +15,45 @@
   }
 
   .fa-brands {
-    background-color: #2d26a2;
-    color: white;
-    width: 36px;
-    height: 36px;
-    font-size: 16px;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: #2d26a2;
     border-radius: 7px;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    height: 36px;
+    justify-content: center;
+    width: 36px;
   }
 
   .social-icons-wrapper {
-    display: flex;
     align-items: center;
-    justify-content: flex-start;
+    display: flex;
     gap: 18px;
+    justify-content: flex-start;
     margin-top: 25px;
   }
 
   hr {
     border-bottom: 1px solid #2d26a2;
-    opacity: 1;
     margin: 25px 0;
+    opacity: 1;
   }
 
   .nav-link {
+    color: #2d26a2;
+    font-family: "FuturaBook";
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
-    color: #2d26a2;
-    font-family: "FuturaBook";
   }
 }
 
 .navbar .copyright-text {
+  color: #2d26a2;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  color: #2d26a2;
   text-align: left;
 }
 
@@ -63,32 +63,32 @@
 
 .navbar-collapse.collapsing {
   background-color: white;
-  width: 100%;
-  position: fixed;
-  top: 90px;
-  z-index: 1000;
-  left: 0;
-  padding: 32px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  height: calc(100dvh - 92px);
   justify-content: space-between;
-  height: calc(100vh - 92px);
+  left: 0;
+  padding: 32px;
+  position: fixed;
+  top: 90px;
+  width: 100%;
+  width: 100%;
+  z-index: 1000;
 }
 
 .navbar-collapse.show {
   background-color: white;
-  width: 100%;
-  position: fixed;
-  top: 90px;
-  z-index: 1000;
-  left: 0;
-  padding: 32px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  height: calc(100dvh - 92px);
   justify-content: space-between;
-  height: calc(100vh - 92px);
+  left: 0;
+  padding: 32px;
+  position: fixed;
+  top: 90px;
+  width: 100%;
+  width: 100%;
+  z-index: 1000;
 }
 
 .navbar-collapse hr {
@@ -101,56 +101,65 @@
 }
 
 .hero {
-  background-color: #4b3fff;
-  min-height: 100vh;
-  display: flex;
   align-items: center;
-  padding: 70px 0 100px 0;
+  background-image: url("../images/hero-movil.jpg");
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
   margin-top: 90px;
+  height: 100dvh;
+  padding: 70px 0 100px 0;
 
   .btn-wrapper {
-    display: flex;
-    gap: 16px;
-    flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     justify-content: center;
   }
 
   .play {
-    width: 66px;
-    height: 66px;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 22px;
     border-radius: 100px;
+    color:#1E285F;
+    display: flex;
+    font-size: 22px;
+    height: 66px;
+    justify-content: center;
+    width: 66px;
   }
 
   .title {
+    color: white;
+    font-family: "FuturaBold";
     font-size: 44px;
     font-style: normal;
     font-weight: 700;
-    color: white;
     text-align: center;
-    font-family: "FuturaBold";
+    margin-bottom: 45px;
   }
 
   .text {
-    font-size: 14px;
     color: white;
+    font-family: "FuturaBook";
+    font-size: 14px;
     margin: 15px 0 45px 0;
     text-align: center;
-    font-family: "FuturaBook";
   }
 
   .side {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .row {
     row-gap: 120px;
+  }
+
+  .btn-white {
+    color:#1E285F;
   }
 }
 
@@ -159,8 +168,8 @@
   padding: 70px 0 44px 0;
 
   .text {
-    margin: 8px 0 78px 0;
     font-family: "FuturaBook";
+    margin: 8px 0 78px 0;
   }
 
   .accordion-item {
@@ -171,12 +180,12 @@
   }
 
   .accordion-button {
+    color: #5d5a88;
+    font-family: "FuturaDemi";
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     gap: 10px;
-    color: #5d5a88;
-    font-family: "FuturaDemi";
     z-index: 0;
   }
 
@@ -187,18 +196,18 @@
   }
 
   .accordion-body p {
+    color: #9795b5;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    color: #9795b5;
     text-align: left;
   }
 
   .accordion-body li {
+    color: #9795b5;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    color: #9795b5;
     text-align: left;
   }
 
@@ -221,41 +230,41 @@
   padding: 44px 0 80px 0;
 
   .sub-subtitle {
+    color: #5d5a88;
     font-size: 23.589px;
     font-style: normal;
     font-weight: 700;
-    color: #5d5a88;
     margin-top: 24px;
     text-align: center;
   }
 
   .position-text {
+    color: #8d8ba7;
     font-family: "FuturaBook";
     font-size: 16.849px;
     font-style: normal;
     font-weight: 500;
-    color: #8d8ba7;
     margin: 8px 0 24px 0;
     text-align: center;
   }
 
   .fa-brands {
-    background-color: #f2f1fa;
-    color: #8d8ba7;
-    width: 36px;
-    height: 36px;
-    font-size: 16px;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: #f2f1fa;
     border-radius: 7px;
+    color: #8d8ba7;
+    display: flex;
+    font-size: 16px;
+    height: 36px;
+    justify-content: center;
+    width: 36px;
   }
 
   .social-icons-wrapper {
-    display: flex;
     align-items: center;
-    justify-content: center;
+    display: flex;
     gap: 18px;
+    justify-content: center;
   }
 
   .text {
@@ -263,19 +272,20 @@
   }
 
   .row {
-    row-gap: 32px;
+    row-gap: 3rem;
   }
 
   .image-wrapper {
-    border-radius: 16.849px;
-    background: #f9f9ff;
-    width: 100%;
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
-    padding: 100px;
     position: relative;
+    width: 100%;
   }
+}
+
+.acerca img {
+  width: 100%;
 }
 
 .acerca .doctor-wrapper {
@@ -287,11 +297,11 @@
 }
 
 .acerca .shadow {
+  height: 100%;
   opacity: 0;
+  position: absolute;
   transition: 0.7s all ease;
   width: 100%;
-  height: 100%;
-  position: absolute;
 }
 
 .acerca .shadow:hover {
@@ -299,29 +309,28 @@
 }
 
 .acerca .shadow-text-wrapper {
-  background-color: #1c3295;
+  align-items: center;
+  background-color: rgb(0 0 0 / 70%);;
+  border-radius: 16.849px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
   height: 100%;
-  padding: 100px 15px;
+  justify-content: center;
   position: relative;
-  border-radius: 16.849px;
+  width: 100%;
 }
 
 .acerca .shadow-text-wrapper img {
-  position: absolute;
   left: 50%;
+  position: absolute;
   transform: translateX(-50%);
 }
 
 .acerca .shadow-text {
+  color: white;
   font-family: "FuturaDemi";
   font-size: 28px;
   font-style: normal;
-  color: white;
   z-index: 1;
 }
 
@@ -329,59 +338,49 @@
   padding: 0;
 
   .modal-dialog {
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0;
     display: grid;
+    height: 100%;
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
     padding: 0;
+    width: 100%;
   }
 
   .modal-content {
-    width: 100%;
     height: 100%;
+    width: 100%;
   }
 
   .modal-body {
+    align-items: center;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     gap: 16px;
     justify-content: center;
-    align-items: center;
     padding: 3rem 1rem;
-    align-items: flex-start;
   }
 
   .photo-wrapper-general {
     width: 100%;
   }
 
-  .photo-wrapper {
-    width: 100%;
-    background-color: #f9f9ff;
-    text-align: center;
-    height: 100%;
-    display: flex;
-    padding: 80px 0;
-    align-items: center;
-    justify-content: center;
-    border-radius: 16.849px;
-  }
+  
 
   .info-wrapper {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     height: 100%;
+    justify-content: flex-start;
   }
 
   li {
+    color: #818181;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    color: #9795b5;
     text-align: left;
   }
 
@@ -389,6 +388,7 @@
     display: flex;
     flex-direction: column;
     gap: 6px;
+    max-width: 577px;
   }
 
   .social-icons-wrapper {
@@ -397,26 +397,27 @@
 }
 
 .modal .btn-secondary {
-  padding: 7px 25px;
-  min-width: 100px;
-  max-width: 100%;
-  border-radius: 100px;
   background-color: #f2f1fa;
   border:none;
+  border-radius: 100px;
   color: #8d8ba7;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 7px 25px;
 }
 
 .modal .only-desktop {
+  background-color: transparent;
+  border: none;
   color: #4d73fb;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  background-color: transparent;
-  border: none;
+  margin-bottom: 21px;
 } 
 
 .modal .sub-subtitle {
-  margin: 0 0 16px 0;
+  margin: 0 0 0 0;
 }
 
 .modal .position-text {
@@ -429,21 +430,21 @@
 }
 
 .servicios {
-  padding: 80px 0 59px 0;
   background-color: white;
+  padding: 80px 0 59px 0;
 
   .text {
     margin: 16px 0 32px 0;
   }
 
   .sub-subtitle {
-    text-align: center;
+    color: #9795b5;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    color: #9795b5;
-    text-align: center;
     margin-bottom: 32px;
+    text-align: center;
+    text-align: center;
   }
 
   .row {
@@ -455,48 +456,48 @@
   }
 
   .card-servicios {
-    border-radius: 24px;
-    border: 1px solid #d4d2e3;
-    display: flex;
     align-items: center;
+    border: 1px solid #d4d2e3;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 100%;
     justify-content: center;
     padding: 37.5px;
-    gap: 12px;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
     position: relative;
+    text-align: center;
   }
 
   .btn-blue {
-    min-width: 250px;
     margin: auto;
     margin: 32px 0 82.78px;
+    min-width: 250px;
   }
 
   .card-servicios-title {
+    color: #5d5a88;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    color: #5d5a88;
     text-align: center;
   }
 }
 
 .servicios .shadow {
-  opacity: 0;
-  border-radius: 24px;
-  transition: 0.7s all ease;
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  align-items: center;
   background-color: #1c3295;
-  padding: 77px 15px;
+  border-radius: 24px;
   display: none;
   flex-direction: column;
   gap: 15px;
+  height: 100%;
   justify-content: center;
-  align-items: center;
+  opacity: 0;
+  padding: 77px 15px;
+  position: absolute;
+  transition: 0.7s all ease;
+  width: 100%;
 }
 
 .servicios .shadow:hover {
@@ -518,46 +519,46 @@
 }
 
 .servicios  .shadow img {
-  position: absolute;
   left: 50%;
-  transform: translateX(-50%);
   opacity: .5;
+  position: absolute;
+  transform: translateX(-50%);
 }
 
 .otros-servicios {
-  padding: 54px 0 104px 0;
   background-color: rgba(134, 161, 252, 0.7);
+  padding: 54px 0 104px 0;
 }
 
 .otros-servicios .subtitle {
-  text-align: left;
   color: #393c5e;
   margin-bottom: 64px;
+  text-align: left;
 }
 
 .otros-servicios .otros-servicios-wrapper {
   display: flex;
-  row-gap: 24px;
   flex-direction: column;
+  row-gap: 24px;
 }
 
 .otros-servicios img {
-  width: 20px;
   height: 20px;
+  width: 20px;
 }
 
 .otros-servicios .otro-servicio-wrapper {
-  gap: 10px;
-  display: flex;
   align-items: center;
-  justify-content: flex-start;
+  display: flex;
   flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
 }
 
 .otros-servicios .text {
+  color: #393c5e;
   margin-bottom: 0;
   text-align: left;
-  color: #393c5e;
 }
 
 .contacto {
@@ -565,8 +566,8 @@
   padding: 60px 0 82px 0;
 
   .bold {
-    font-family: "FuturaDemi";
     color: #8d8ba7;
+    font-family: "FuturaDemi";
   }
 
   .info-wrapper {
@@ -582,11 +583,11 @@
   }
 
   .text-wrapper {
-    margin: 25px 0;
+    align-items: center;
     display: flex;
     gap: 6px;
-    align-items: center;
     justify-content: center;
+    margin: 25px 0;
   }
 
   .text {
@@ -595,32 +596,32 @@
   }
 
   .sucursal-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
     align-items: center;
-    justify-content: center;
+    display: flex;
     /* margin-bottom: 30px; */
     display: none;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
   }
 
   .wrapper {
+    align-items: flex-start;
     display: flex;
     gap: 6px;
-    align-items: flex-start;
   }
 
   .select-address {
+    background-color: white;
     border: 1px solid #0000001a;
+    border-radius: 8px;
     color: #2d26a2;
     font-family: "FuturaBook";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    padding: 8px 16px;
-    border-radius: 8px;
     margin-bottom: 30px;
-    background-color: white;
+    padding: 8px 16px;
     transition: 0.5s all ease;
   }
 
@@ -651,24 +652,24 @@
   -moz-appearance: none;
   background: url("../images/arrow-select.svg") no-repeat right center / 15px
     15px;
-  padding-right: 16px;
   background-position: calc(100% - 16px) center;
+  padding-right: 16px;
   transition: 0.5s all ease;
 }
 
 .contacto select.select-address {
   background: url("../images/arrow-select.svg") no-repeat right center / 15px
     15px;
-  padding-right: 16px;
   background-position: calc(100% - 16px) center;
+  padding-right: 16px;
   transition: 0.5s all ease;
 }
 
 .contacto select.select-address.focus-visible {
   background: url("../images/arrow-select-hover.svg") no-repeat right center /
     15px 15px;
-  padding-right: 16px;
   background-position: calc(100% - 16px) center;
+  padding-right: 16px;
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -700,10 +701,10 @@
   }
 
   .contact-wrapper {
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    align-items: center;
     justify-content: center;
   }
 
@@ -719,37 +720,37 @@
   }
 
   .fa-brands {
-    background-color: white;
-    color: #1c3295;
-    width: 36px;
-    height: 36px;
-    font-size: 16px;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: white;
     border-radius: 7px;
+    color: #1c3295;
+    display: flex;
+    font-size: 16px;
+    height: 36px;
+    justify-content: center;
+    width: 36px;
   }
 
   .social-icons-wrapper {
-    display: flex;
     align-items: center;
-    justify-content: center;
+    display: flex;
     gap: 18px;
+    justify-content: center;
     margin-top: 25px;
   }
 
   hr {
     border-bottom: 1px solid white;
-    opacity: 1;
     margin: 25px 0;
+    opacity: 1;
   }
 }
 
 .footer .copyright-text {
+  color: white;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  color: white;
   text-align: center;
 }
 
@@ -783,4 +784,8 @@
 
 .d-none {
   display: none!important;
+}
+
+.jOcigp {
+  color:black!important
 }
