@@ -56,27 +56,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Función para abrir el modal de doctores
   function openDoctorModal(doctorData) {
+    // Verifica si existe la propiedad imageMovil y si el ancho de la pantalla es menor o igual a 991.98
+    const imageUrl =
+      doctorData.imageMovil && window.innerWidth <= 991.98
+      ? `images/${doctorData.image}`
+      : `images/${doctorData.imageMovil}`;
+
     // Actualiza el contenido del modal de doctores
     modalBody.innerHTML = `
-      <div class="photo-wrapper-general">
+    <div class="photo-wrapper-general">
       <button type="button" class="only-mobile btn btn-secondary" data-bs-dismiss="modal">< Volver</button>
-        <div class="photo-wrapper">
-          <img class="photo-wrapper-img" src="images/${
-            doctorData.image
-          }" alt="">
-        </div>
+      <div class="photo-wrapper">
+        <img class="photo-wrapper-img" src="${imageUrl}" alt="">
       </div>
-      <div class="info-wrapper">
-        <button type="button" class="only-desktop" data-bs-dismiss="modal">< Volver</button>
-        <h5 class="sub-subtitle">${doctorData.name}</h5>
-        <h6 class="position-text">${doctorData.position}</h6>
-        <ul>
-          ${doctorData.content.map((item) => `<li>${item}</li>`).join("")}
-        </ul>
-        <div class="social-icons-wrapper">
-          ${generateSocialIcons(doctorData.socials)}
-        </div>
-      </div>`;
+    </div>
+    <div class="info-wrapper">
+      <button type="button" class="only-desktop" data-bs-dismiss="modal">< Volver</button>
+      <h5 class="sub-subtitle">${doctorData.name}</h5>
+      <h6 class="position-text">${doctorData.position}</h6>
+      <ul>
+        ${doctorData.content.map((item) => `<li>${item}</li>`).join("")}
+      </ul>
+      <div class="social-icons-wrapper">
+        ${generateSocialIcons(doctorData.socials)}
+      </div>
+    </div>`;
 
     // Cierra cualquier instancia previa del modal
     myModal.hide();
