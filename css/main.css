@@ -122,7 +122,7 @@
   .play {
     align-items: center;
     border-radius: 100px;
-    color:#1E285F;
+    color: #1e285f;
     display: flex;
     font-size: 22px;
     height: 66px;
@@ -159,7 +159,7 @@
   }
 
   .btn-white {
-    color:#1E285F;
+    color: #1e285f;
   }
 }
 
@@ -289,7 +289,8 @@
 }
 
 .modal .photo-wrapper-img {
-background: #1c3295;
+  background: #1c3295;
+  max-height: 290px;
 }
 
 .acerca .doctor-wrapper {
@@ -314,7 +315,7 @@ background: #1c3295;
 
 .acerca .shadow-text-wrapper {
   align-items: center;
-  background-color: rgb(0 0 0 / 70%);;
+  background-color: rgb(0 0 0 / 70%);
   border-radius: 16.849px;
   display: flex;
   flex-direction: column;
@@ -369,7 +370,7 @@ background: #1c3295;
   }
 
   .photo-wrapper-general {
-    position:relative;
+    position: relative;
     width: 100%;
   }
 
@@ -404,15 +405,15 @@ background: #1c3295;
 }
 
 .modal .btn-secondary {
-  background-color: rgba(0, 0, 0, 0.60);
-  border:none;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
   border-radius: 12px;
   color: white;
   left: 15px;
   max-width: 100%;
   min-width: 100px;
   padding: 10px 25px;
-  position:absolute;
+  position: absolute;
   top: 15px;
 }
 
@@ -424,7 +425,7 @@ background: #1c3295;
   font-style: normal;
   font-weight: 600;
   margin-bottom: 21px;
-} 
+}
 
 .modal .sub-subtitle {
   margin: 0 0 5px 0;
@@ -528,9 +529,9 @@ background: #1c3295;
   font-style: normal;
 }
 
-.servicios  .shadow img {
+.servicios .shadow img {
   left: 50%;
-  opacity: .5;
+  opacity: 0.5;
   position: absolute;
   transform: translateX(-50%);
 }
@@ -793,9 +794,9 @@ background: #1c3295;
 }
 
 .d-none {
-  display: none!important;
+  display: none !important;
 }
 
 .jOcigp {
-  color:black!important
+  color: black !important;
 }
