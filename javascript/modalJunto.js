@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("DOMContentLoaded", function () {
   // Obtén una referencia al modal y su cuerpo
-  var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
-  var modalBody = document.getElementById('modalBody');
+  var myModal = new bootstrap.Modal(document.getElementById("exampleModal"));
+  var modalBody = document.getElementById("modalBody");
 
   // Función para actualizar el contenido del modal de servicios
   function updateServicesModal(event) {
@@ -39,29 +39,31 @@ document.addEventListener('DOMContentLoaded', function () {
   // Verifica el ancho de la pantalla y actualiza el modal de servicios
   function checkScreenSize() {
     if (window.innerWidth <= 991.98) {
-      $('.card-servicios').off('click').on('click', updateServicesModal);
-      $('#exampleModal').on('hidden.bs.modal', function () {
-        $('#modalBody').empty();
+      $(".card-servicios").off("click").on("click", updateServicesModal);
+      $("#exampleModal").on("hidden.bs.modal", function () {
+        $("#modalBody").empty();
       });
     } else {
-      $('.card-servicios').off('click'); // Desvincula el evento click si la pantalla es grande
+      $(".card-servicios").off("click"); // Desvincula el evento click si la pantalla es grande
     }
   }
 
   // Captura el evento de cerrarse el modal
-  myModal._element.addEventListener('hidden.bs.modal', function () {
+  myModal._element.addEventListener("hidden.bs.modal", function () {
     // Limpia el contenido del modal al cerrarse
-    modalBody.innerHTML = '';
+    modalBody.innerHTML = "";
   });
 
   // Función para abrir el modal de doctores
   function openDoctorModal(doctorData) {
     // Actualiza el contenido del modal de doctores
     modalBody.innerHTML = `
-      <button type="button" class="only-mobile btn btn-secondary" data-bs-dismiss="modal">< Volver</button>
       <div class="photo-wrapper-general">
+      <button type="button" class="only-mobile btn btn-secondary" data-bs-dismiss="modal">< Volver</button>
         <div class="photo-wrapper">
-          <img class="photo-wrapper-img" src="images/${doctorData.image}" alt="">
+          <img class="photo-wrapper-img" src="images/${
+            doctorData.image
+          }" alt="">
         </div>
       </div>
       <div class="info-wrapper">
@@ -86,18 +88,22 @@ document.addEventListener('DOMContentLoaded', function () {
   // Función para establecer el médico activo y abrir el modal
   window.setActiveDoctor = function (doctorData) {
     openDoctorModal(doctorData);
-  }
+  };
 
   // Función para generar iconos de redes sociales
   function generateSocialIcons(socials) {
-    return socials.map(social => `
+    return socials
+      .map(
+        (social) => `
       <a href="${social.link}" target="_blank">
         <i class="${social.icon}"></i>
       </a>
-    `).join('');
+    `
+      )
+      .join("");
   }
 
   // Verifica el tamaño de la pantalla al cargar y al cambiar su tamaño
   checkScreenSize();
-  window.addEventListener('resize', checkScreenSize);
+  window.addEventListener("resize", checkScreenSize);
 });

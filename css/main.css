@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 1061;
 
   .navbar-toggler {
     border: none;
@@ -101,7 +101,7 @@
 }
 
 .hero {
-  align-items: center;
+  align-items: flex-start;
   background-image: url("../images/hero-movil.jpg");
   background-position: 100%;
   background-repeat: no-repeat;
@@ -288,6 +288,10 @@
   width: 100%;
 }
 
+.modal .photo-wrapper-img {
+background: #1c3295;
+}
+
 .acerca .doctor-wrapper {
   position: relative;
 }
@@ -359,14 +363,15 @@
     flex-direction: column;
     gap: 16px;
     justify-content: center;
-    padding: 3rem 1rem;
+    margin-top: 99px;
+    padding: 0 0 3rem 0;
+    position: relative;
   }
 
   .photo-wrapper-general {
+    position:relative;
     width: 100%;
   }
-
-  
 
   .info-wrapper {
     align-items: flex-start;
@@ -374,6 +379,7 @@
     flex-direction: column;
     height: 100%;
     justify-content: flex-start;
+    padding: 2rem;
   }
 
   li {
@@ -389,6 +395,7 @@
     flex-direction: column;
     gap: 6px;
     max-width: 577px;
+    padding-left: 1rem;
   }
 
   .social-icons-wrapper {
@@ -397,13 +404,16 @@
 }
 
 .modal .btn-secondary {
-  background-color: #f2f1fa;
+  background-color: rgba(0, 0, 0, 0.60);
   border:none;
-  border-radius: 100px;
-  color: #8d8ba7;
+  border-radius: 12px;
+  color: white;
+  left: 15px;
   max-width: 100%;
   min-width: 100px;
-  padding: 7px 25px;
+  padding: 10px 25px;
+  position:absolute;
+  top: 15px;
 }
 
 .modal .only-desktop {
@@ -417,7 +427,7 @@
 } 
 
 .modal .sub-subtitle {
-  margin: 0 0 0 0;
+  margin: 0 0 5px 0;
 }
 
 .modal .position-text {
@@ -431,7 +441,7 @@
 
 .servicios {
   background-color: white;
-  padding: 80px 0 59px 0;
+  padding: 40px 0 59px 0;
 
   .text {
     margin: 16px 0 32px 0;
