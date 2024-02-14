@@ -45,13 +45,13 @@
   }
 
   .navbar .nav-link {
-    color: #1c3295;
+    color: #1c3295!important;
     font-size: 18px;
     font-style: normal;
   }
 
   .navbar.only-desktop {
-    background-color: white;
+    background-color: white!important;
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
     padding: 15px 0;
   }
@@ -61,7 +61,7 @@
   }
 
   .hero {
-    background-image: url("../images/hero.jpg");
+    background-image: url("https://prostacentermx.com/wp-content/uploads/2024/02/hero.jpg");
     height: 130dvh;
     max-height: 1000px !important;
     padding: 70px 0 0 0;

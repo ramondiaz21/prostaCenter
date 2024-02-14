@@ -1,0 +1,1571 @@
+button:focus, .menu-toggle:hover, button:hover, .ast-button:hover, .ast-custom-button:hover .button:hover, .ast-custom-button:hover, input[type=reset]:hover, input[type=reset]:focus, input#submit:hover, input#submit:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button:hover, form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button:focus, body .wp-block-file .wp-block-file__button:hover, body .wp-block-file .wp-block-file__button:focus, .woocommerce-js a.button:hover, .woocommerce button.button:hover, .woocommerce .woocommerce-message a.button:hover, .woocommerce #respond input#submit:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce input.button.alt:hover, .woocommerce input.button:hover, .woocommerce button.button.alt.disabled:hover, .wc-block-grid__products .wc-block-grid__product .wp-block-button__link:hover, [CLASS*="wc-block"] button:hover, .woocommerce-js .astra-cart-drawer .astra-cart-drawer-content .woocommerce-mini-cart__buttons .button:not(.checkout):not(.ast-continue-shopping):hover, .woocommerce-js .astra-cart-drawer .astra-cart-drawer-content .woocommerce-mini-cart__buttons a.checkout:hover, .woocommerce button.button.alt.disabled.wc-variation-selection-needed:hover, [CLASS*="wc-block"] .wc-block-components-button:hover, [CLASS*="wc-block"] .wc-block-components-button:focus {
+  background-color: transparent!important;
+  border-color: transparent!important;
+}
+#modalTestSintomas .moda-body {
+  position: relative;
+}
+
+#modalTestSintomas .btn-close {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.form-sintomas-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+}
+
+.form-sintomas-wrapper .subtitle {
+  margin: 0 !important;
+}
+
+.form-sintomas-wrapper .text {
+  margin: 0 auto !important;
+}
+
+.forminator-sintomas-wrapper {
+  margin-top: 50px;
+}
+
+.forminator-label {
+  color: #5d5a88 !important;
+  font-family: "FuturaDemi" !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+}
+
+.forminator-radio-label {
+  color: #9795b5 !important;
+  font-family: "FuturaBook" !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+}
+
+.forminator-ui.forminator-custom-form[data-design="default"]
+  .forminator-radio:not(.forminator-radio-inline) {
+  margin: 10px 0 !important;
+}
+
+.forminator-ui#forminator-module-113.forminator-design--default
+  .forminator-radio
+  .forminator-radio-bullet,
+.forminator-ui#forminator-module-113.forminator-design--default
+  .forminator-radio
+  .forminator-radio-image {
+  border-color: #dedede !important;
+  background-color: transparent !important;
+}
+
+.forminator-ui#forminator-module-113.forminator-design--default
+  .forminator-radio
+  input:checked
+  + .forminator-radio-bullet {
+  background-color: transparent !important;
+  border-color: #4d73fb !important;
+}
+
+.forminator-ui#forminator-module-113.forminator-design--default
+  .forminator-radio
+  .forminator-radio-bullet:before {
+  background-color: #4d73fb !important;
+}
+
+.forminator-sintomas-wrapper .forminator-input {
+      border-radius: 12px !important;
+    border: 1px solid #c2c2c2 !important;
+    color: #c2c2c2 !important;
+    background: transparent !important;
+    font-family: "FuturaBook" !important;
+    font-size: 16px !important;
+    width: 350px!important;
+    max-width: 100%!important;
+    padding: 16px 24px!important;
+    margin-top: 7.5px!important;
+}
+
+.forminator-sintomas-wrapper .forminator-button {
+    width: 250px!important;
+    max-width: 100%!important;
+    padding: 18px 24px!important;
+    border-radius: 30px!important;
+    background: #4D73FB!important;
+    font-size: 16px!important;
+}
+
+.forminator-required {
+  display: none !important;
+}
+
+.form-wrapper {
+  background: #f2f1fa;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.forminator-input,
+.forminator-textarea {
+  background: white !important;
+  border: none !important;
+  border-radius: 50px !important;
+  color: #8d8ba7 !important;
+  font-family: "FuturaBook" !important;
+  font-size: 16px !important;
+  padding: 10px 23px !important;
+}
+
+.forminator-textarea {
+  border-radius: 20px !important;
+}
+
+.forminator-button {
+  background: #4b3fff !important;
+  border: none !important;
+  border-radius: 30px !important;
+  color: white !important;
+  font-family: "FuturaBook" !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  padding: 18px 24px !important;
+  text-align: center !important;
+  transition: 0.5s all ease !important;
+  width: 100% !important;
+}
+
+.forminator-button:hover {
+  background-color: #1c3295 !important;
+  color: white !important;
+}
+
+.forminator-ui {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+}
+
+.forminator-row {
+  margin-bottom: 0 !important;
+}
+
+.menu-toggle,
+button,
+.ast-button,
+.ast-custom-button,
+.button,
+input#submit,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+#comments .submit,
+.search .search-submit,
+form[CLASS*="wp-block-search__"].wp-block-search
+  .wp-block-search__inside-wrapper
+  .wp-block-search__button,
+body .wp-block-file .wp-block-file__button,
+.search .search-submit,
+.woocommerce-js a.button,
+.woocommerce button.button,
+.woocommerce .woocommerce-message a.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce input.button.alt,
+.woocommerce input.button,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled],
+.woocommerce input.button:disabled:hover,
+.woocommerce input.button:disabled[disabled]:hover,
+.woocommerce #respond input#submit,
+.woocommerce button.button.alt.disabled,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link,
+.wc-block-grid__product-onsale,
+[CLASS*="wc-block"] button,
+.woocommerce-js
+  .astra-cart-drawer
+  .astra-cart-drawer-content
+  .woocommerce-mini-cart__buttons
+  .button:not(.checkout):not(.ast-continue-shopping),
+.woocommerce-js
+  .astra-cart-drawer
+  .astra-cart-drawer-content
+  .woocommerce-mini-cart__buttons
+  a.checkout,
+.woocommerce button.button.alt.disabled.wc-variation-selection-needed,
+[CLASS*="wc-block"] .wc-block-components-button {
+  box-shadow: none;
+  padding: 0;
+}
+
+.ast-container {
+  max-width: 100%;
+  padding: 0 !important;
+}
+
+#primary {
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+.entry-header {
+  display: none !important;
+}
+
+section {
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+.site-header {
+  display: none !important;
+}
+
+.ast-single-post .entry-content a,
+.ast-comment-content a:not(.ast-comment-edit-reply-wrap a) {
+  text-decoration: none !important;
+}
+
+.site-footer {
+  display: none !important;
+}
+
+.navbar {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.accordion-button {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#ast-scroll-top {
+  display: none !important;
+}
+
+.footer {
+  max-width: 100% !important;
+}
+
+.nav-link {
+  padding: 0 !important;
+}
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+button,
+p {
+  font-family: "FuturaBook";
+}
+
+h1 {
+  font-family: "FuturaBold";
+}
+
+h2,
+h3,
+h4,
+h6,
+h5 {
+  font-family: "FuturaDemi";
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-white {
+  align-items: center;
+  background-color: white !important;
+  border: none;
+  border-radius: 30px;
+  color: #1e285f !important;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  gap: 8px;
+  padding: 18px 24px;
+  position: relative;
+  transition: 0.5s all ease;
+}
+
+.btn-white img {
+  transition: 1s all ease;
+}
+
+.btn-white .hover {
+  display: none;
+}
+
+.btn-white:hover {
+  background-color: #86a1fc !important;
+  color: white !important;
+}
+
+.btn-white:hover img.normal {
+  display: none;
+  opacity: 0;
+}
+
+.btn-white:hover img.hover {
+  display: block;
+  opacity: 1;
+}
+
+.btn-purple {
+  align-items: center;
+  background: #4d73fb;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+  color: white !important;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  gap: 10px;
+  justify-content: center;
+  padding: 24px 5px;
+  text-align: left;
+  transition: 0.5s all ease;
+  width: 100%;
+}
+
+.btn-purple:hover {
+  background-color: #1c3295 !important;
+  color: white !important;
+}
+
+.btn-blue {
+  background: #4b3fff;
+  border: none;
+  border-radius: 30px;
+  color: white !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 18px 24px;
+  text-align: center;
+  transition: 0.5s all ease;
+}
+
+.btn-blue:hover {
+  background-color: #1c3295 !important;
+  color: white !important;
+}
+
+.container {
+  padding: 0 25px;
+}
+
+button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.subtitle {
+  color: #5d5a88 !important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text {
+  color: #5d5a88 !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.only-desktop {
+  display: none;
+}
+
+.only-mobile {
+  display: block;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 200, "opsz" 24;
+}
+
+@font-face {
+  font-family: "FuturaBook";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://prostacentermx.com/wp-content/font/FuturaPTBook.otf");
+}
+
+@font-face {
+  font-family: "FuturaDemi";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://prostacentermx.com/wp-content/font/FuturaPTDemi.otf");
+}
+
+@font-face {
+  font-family: "FuturaBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://prostacentermx.com/wp-content/font/FuturaPTBold.otf");
+}
+
+@font-face {
+  font-family: "FuturaMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://prostacentermx.com/wp-content/font/FuturaPTMedium.otf");
+}
+
+@font-face {
+  font-family: "FuturaBook";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://prostacentermx.com/wp-content/font/FuturaPTBook.otf");
+}
+
+@font-face {
+  font-family: "FuturaLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://prostacentermx.com/wp-content/font/FuturaPTLight.otf");
+}
+.altNav {
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  background-color: white !important;
+  padding: 25px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1061;
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .fa-brands {
+    align-items: center;
+    background-color: #2d26a2 !important;
+    border-radius: 7px;
+    color: white !important;
+    display: flex;
+    font-size: 16px;
+    height: 36px;
+    justify-content: center;
+    width: 36px;
+  }
+
+  .social-icons-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 18px;
+    justify-content: flex-start;
+    margin-top: 25px;
+  }
+
+  hr {
+    border-bottom: 1px solid #2d26a2;
+    margin: 25px 0;
+    opacity: 1;
+  }
+
+  .nav-link {
+    color: #2d26a2 !important;
+    font-family: "FuturaBook";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+
+.navbar .copyright-text {
+  color: #2d26a2 !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+}
+
+.navbar-collapse {
+  box-sizing: border-box;
+}
+
+.navbar-collapse.collapsing {
+  background-color: white !important;
+  display: flex;
+  flex-direction: column;
+  height: calc(100dvh - 92px);
+  justify-content: space-between;
+  left: 0;
+  padding: 32px;
+  position: fixed;
+  top: 90px;
+  width: 100%;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-collapse.show {
+  background-color: white !important;
+  display: flex;
+  flex-direction: column;
+  height: calc(100dvh - 92px);
+  justify-content: space-between;
+  left: 0;
+  padding: 32px;
+  position: fixed;
+  top: 90px;
+  width: 100%;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-collapse hr {
+  border-bottom: 1px solid rgba(75, 63, 255, 0.3);
+  margin: 32px 0;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.hero {
+  align-items: flex-start;
+  background-image: url("https://prostacentermx.com/wp-content/uploads/2024/02/hero-movil.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100dvh;
+  margin-top: 90px;
+  padding: 70px 0 100px 0;
+
+  .btn-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .play {
+    align-items: center;
+    border-radius: 100px;
+    color: #1e285f !important;
+    display: flex;
+    font-size: 22px;
+    height: 66px;
+    justify-content: center;
+    width: 66px;
+  }
+
+  .title {
+    color: white !important;
+    font-family: "FuturaBold";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 45px;
+    text-align: center;
+  }
+
+  .text {
+    color: white !important;
+    font-family: "FuturaBook";
+    font-size: 14px;
+    margin: 15px 0 45px 0;
+    text-align: center;
+  }
+
+  .side {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    row-gap: 120px;
+  }
+
+  .btn-white {
+    color: #1e285f !important;
+  }
+}
+
+.faqs {
+  background-color: white !important;
+  padding: 70px 0 44px 0;
+
+  .text {
+    font-family: "FuturaBook";
+    margin: 8px 0 78px 0;
+  }
+
+  .accordion-item {
+    background-color: white !important;
+    border: none;
+    border-top: 1px solid #d4d2e3;
+    padding: 32px 0 56px 0;
+  }
+
+  .accordion-button {
+    color: #5d5a88 !important;
+    font-family: "FuturaDemi";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    gap: 10px;
+    z-index: 0;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: white !important;
+    box-shadow: none;
+    color: #5d5a88 !important;
+  }
+
+  .accordion-body p {
+    color: #9795b5 !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .accordion-body li {
+    color: #9795b5 !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill='none'%3E%3Cg clip-path='url(%23clip0_116_1567)'%3E%3Cpath d='M25.6023 12.2588H0.146484' stroke='%238D8BA7' stroke-width='1.26316' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_116_1567'%3E%3Crect width='24' height='24' fill='white' transform='translate(0.874512 0.258789)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+  }
+
+  .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='27' viewBox='0 0 26 27' fill='none'%3E%3Cpath d='M0.874512 13.2588H24.8745' stroke='%238D8BA7' stroke-width='1.68421' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M12.8745 1.25879L12.8745 25.2588' stroke='%238D8BA7' stroke-width='1.68421' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
+
+  .accordion-button {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.acerca {
+  background-color: white !important;
+  padding: 44px 0 80px 0;
+
+  .sub-subtitle {
+    color: #5d5a88 !important;
+    font-size: 23.589px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 24px;
+    text-align: center;
+  }
+
+  .position-text {
+    color: #8d8ba7 !important;
+    font-family: "FuturaBook";
+    font-size: 16.849px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 8px 0 24px 0;
+    text-align: center;
+  }
+
+  .fa-brands {
+    align-items: center;
+    background-color: #f2f1fa !important;
+    border-radius: 7px;
+    color: #8d8ba7 !important;
+    display: flex;
+    font-size: 16px;
+    height: 36px;
+    justify-content: center;
+    width: 36px;
+  }
+
+  .social-icons-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .text {
+    margin: 16px 0 36px 0;
+  }
+
+  .row {
+    row-gap: 3rem;
+  }
+
+  .image-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+}
+
+.acerca img {
+  width: 100%;
+}
+
+.modal .photo-wrapper-img {
+  background: #1c3295;
+}
+
+.acerca .doctor-wrapper {
+  position: relative;
+}
+
+.acerca .doctor-wrapper .shadow {
+  display: none;
+}
+
+.acerca .shadow {
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  transition: 0.7s all ease;
+  width: 100%;
+}
+
+.acerca .shadow:hover {
+  opacity: 1;
+}
+
+.acerca .shadow-text-wrapper {
+  align-items: center;
+  background-color: rgb(0 0 0 / 70%) !important;
+  border-radius: 16.849px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.acerca .shadow-text-wrapper img {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.acerca .shadow-text {
+  color: white !important;
+  font-family: "FuturaDemi";
+  font-size: 28px;
+  font-style: normal;
+  z-index: 1;
+}
+
+.modal {
+  padding: 0;
+
+  .modal-dialog {
+    display: grid;
+    height: 100%;
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+
+  .modal-content {
+    height: 100%;
+    width: 100%;
+  }
+
+  .modal-body {
+    align-items: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 99px;
+    padding: 0 0 3rem 0;
+    position: relative;
+  }
+
+  .photo-wrapper-general {
+    position: relative;
+    width: 100%;
+  }
+
+  .info-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    padding: 2rem;
+  }
+
+  li {
+    color: #818181 !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 577px;
+    padding-left: 1rem;
+  }
+
+  .social-icons-wrapper {
+    margin-top: 80px;
+  }
+}
+
+.modal .btn-secondary {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  border: none;
+  border-radius: 12px;
+  color: white !important;
+  left: 15px;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 10px 25px;
+  position: absolute;
+  top: 15px;
+}
+
+.modal .only-desktop {
+  background-color: transparent !important;
+  border: none;
+  color: #4d73fb !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 21px;
+}
+
+.modal .sub-subtitle {
+  margin: 0 0 5px 0;
+}
+
+.modal .position-text {
+  margin: 0 0 16px 0;
+  text-align: left;
+}
+
+.modal .acerca .position-text {
+  text-align: left;
+}
+
+.servicios {
+  background-color: white !important;
+  padding: 40px 0 59px 0;
+
+  .text {
+    margin: 16px 0 32px 0;
+  }
+
+  .sub-subtitle {
+    color: #9795b5 !important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 32px;
+    text-align: center;
+    text-align: center;
+  }
+
+  .row {
+    row-gap: 16px;
+  }
+
+  .row .col-6 {
+    padding: 0 8px;
+  }
+
+  .card-servicios {
+    align-items: center;
+    border: 1px solid #d4d2e3;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 100%;
+    justify-content: center;
+    padding: 37.5px;
+    position: relative;
+    text-align: center;
+  }
+
+  .btn-blue {
+    margin: auto;
+    margin: 32px 0 82.78px;
+    min-width: 250px;
+  }
+
+  .card-servicios-title {
+    color: #5d5a88 !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+.servicios .shadow {
+  align-items: center;
+  background-color: #1c3295 !important;
+  border-radius: 24px;
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  height: 100%;
+  justify-content: center;
+  opacity: 0;
+  padding: 77px 15px;
+  position: absolute;
+  transition: 0.7s all ease;
+  width: 100%;
+}
+
+.servicios .shadow:hover {
+  opacity: 1;
+}
+
+.servicios .card-subtitle {
+  color: white !important;
+  font-family: "FuturaDemi";
+  font-size: 16px;
+  font-style: normal;
+}
+
+.servicios .card-text {
+  color: white !important;
+  font-family: "FuturaLight";
+  font-size: 12px;
+  font-style: normal;
+}
+
+.servicios .shadow img {
+  left: 50%;
+  opacity: 0.5;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.otros-servicios {
+  background-color: rgba(134, 161, 252, 0.7) !important;
+  padding: 54px 0 104px 0;
+}
+
+.otros-servicios .subtitle {
+  color: #393c5e !important;
+  margin-bottom: 64px;
+  text-align: left;
+}
+
+.otros-servicios .otros-servicios-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.otros-servicios img {
+  height: 20px;
+  width: 20px;
+}
+
+.otros-servicios .otro-servicio-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.otros-servicios .text {
+  color: #393c5e !important;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.contacto {
+  background-color: white !important;
+  padding: 60px 0 82px 0;
+
+  .bold {
+    color: #8d8ba7 !important;
+    font-family: "FuturaDemi";
+  }
+
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .side {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .text-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    margin: 25px 0;
+  }
+
+  .text {
+    margin-bottom: 0;
+    text-decoration: none !important;
+  }
+
+  .sucursal-wrapper {
+    align-items: center;
+    display: flex;
+    /* margin-bottom: 30px; */
+    display: none;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .wrapper {
+    align-items: flex-start;
+    display: flex;
+    gap: 6px;
+  }
+
+  .select-address {
+    background-color: white !important;
+    border: 1px solid #0000001a;
+    border-radius: 8px;
+    color: #2d26a2 !important;
+    font-family: "FuturaBook";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding: 8px 16px;
+    transition: 0.5s all ease;
+  }
+
+  .select-address:hover {
+    background-color: #f5f4fb !important;
+  }
+
+  .select-address:focus-visible {
+    background-color: #f5f4fb !important;
+  }
+}
+
+.contacto .map-wrapper img {
+  width: 100%;
+}
+
+.contacto .map-wrapper img {
+  display: none;
+}
+
+.contacto select.select-address:focus-visible {
+  outline: none !important;
+}
+
+.contacto select.select-address {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("https://prostacentermx.com/wp-content/uploads/2024/02/arrow-select.svg")
+    no-repeat right center / 15px 15px;
+  background-position: calc(100% - 16px) center;
+  padding-right: 16px;
+  transition: 0.5s all ease;
+}
+
+.contacto select.select-address {
+  background: url("https://prostacentermx.com/wp-content/uploads/2024/02/arrow-select.svg")
+    no-repeat right center / 15px 15px;
+  background-position: calc(100% - 16px) center;
+  padding-right: 16px;
+  transition: 0.5s all ease;
+}
+
+.contacto select.select-address.focus-visible {
+  background: url("https://prostacentermx.com/wp-content/uploads/2024/02/arrow-select-hover.svg")
+    no-repeat right center / 15px 15px;
+  background-position: calc(100% - 16px) center;
+  padding-right: 16px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .select-address::-ms-expand {
+    border: none !important;
+    color: #2d26a2 !important;
+    font-family: "FuturaBook";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+}
+
+.contacto .text {
+  text-decoration: none !important;
+}
+
+.footer {
+  background-color: #1c3295 !important;
+  padding: 45.98px 0;
+
+  .logo-wrapper {
+    text-align: center;
+  }
+
+  .logo {
+    margin-bottom: 45px;
+    width: 60%;
+  }
+
+  .contact-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .text {
+    color: white !important;
+    margin: 0;
+  }
+
+  .fa-brands {
+    align-items: center;
+    background-color: white !important;
+    border-radius: 7px;
+    color: #1c3295 !important;
+    display: flex;
+    font-size: 16px;
+    height: 36px;
+    justify-content: center;
+    width: 36px;
+  }
+
+  .social-icons-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  hr {
+    border-bottom: 1px solid white;
+    margin: 25px 0;
+    opacity: 1;
+  }
+}
+
+.footer .copyright-text {
+  color: white !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.alert {
+  border: none;
+  border-radius: unset;
+  box-shadow: 10px 15px 30px gray;
+  display: none;
+  font-family: "Futura-Regular";
+  font-size: 1.8em;
+  left: 50%;
+  margin: 0;
+  max-width: 50vw;
+  padding: 1em 1.5em;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+}
+
+.alert.error {
+  background-color: red !important;
+  color: white !important;
+}
+
+.alert.success {
+  background-color: rgb(93, 90, 136) !important;
+  color: white !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.jOcigp {
+  color: black !important;
+}
+@media (min-width: 991.98px) {
+  .altNav {
+    box-shadow: none;
+  }
+
+  .only-desktop {
+    display: block;
+  }
+
+  .only-mobile {
+    display: none;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .subtitle {
+    font-size: 36px;
+  }
+
+  .btn-white {
+    font-size: 18px;
+    padding: 24px 36px;
+  }
+
+  .btn-purple {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .btn-blue {
+    font-size: 16px;
+    padding: 18px 24px;
+  }
+
+  .navbar .text-wrapper {
+    display: none;
+  }
+
+  .navbar-nav {
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+
+  .navbar .nav-link {
+    color: #1c3295 !important;
+    font-size: 18px;
+    font-style: normal;
+  }
+
+  .navbar.only-desktop {
+    background-color: white !important;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+  }
+
+  .hero .text-side {
+    align-items: flex-start;
+  }
+
+  .hero {
+    background-image: url("https://prostacentermx.com/wp-content/uploads/2024/02/hero.jpg");
+    height: 130dvh;
+    max-height: 1000px !important;
+    padding: 70px 0 0 0;
+  }
+
+  .hero .title {
+    font-size: 46px;
+    padding-top: 3em;
+    text-align: left;
+  }
+
+  .hero .text {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .hero .btn-white {
+    border-radius: 100px;
+    min-width: 261px;
+  }
+
+  .hero .btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .hero .play {
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    height: 75px;
+    justify-content: center;
+    min-width: 0 !important;
+    padding: 0;
+    width: 75px !important;
+  }
+
+  .faqs {
+    padding: 80px 0 65px 0;
+  }
+
+  .faqs .text {
+    margin: 16px auto 56px auto;
+    max-width: 717px;
+  }
+
+  .faqs .accordion-button {
+    font-size: 28px;
+  }
+
+  .faqs .accordion-body p {
+    font-size: 18px;
+    max-width: 753.402px;
+  }
+
+  .faqs .btn-purple {
+    border-radius: 100px;
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 55px;
+    width: 100%;
+  }
+
+  .acerca {
+    padding: 65px 0;
+  }
+
+  .acerca .text {
+    margin: 16px auto 60px auto;
+    max-width: 615px;
+  }
+
+  .acerca .sub-subtitle {
+    font-size: 23.589px;
+    text-align: left;
+  }
+
+  .acerca .position-text {
+    font-size: 16.849px;
+    margin: 6px 0 26px 0;
+    text-align: left;
+  }
+
+  .acerca .social-icons-wrapper {
+    justify-content: flex-start;
+  }
+
+  .servicios {
+    padding: 65px 0 130px 0;
+  }
+
+  .servicios .text {
+    margin: 16px auto 47px auto;
+    max-width: 717px;
+  }
+
+  .servicios .sub-subtitle {
+    font-size: 20px;
+    margin-bottom: 47px;
+  }
+
+  .servicios .card-servicios {
+    gap: 30px;
+    min-height: 260px;
+  }
+
+  .servicios .card-servicios-title {
+    font-size: 28px;
+  }
+
+  .otros-servicios {
+    padding: 120px 0;
+  }
+
+  .otros-servicios .large-text {
+    max-width: 190px;
+  }
+
+  .otros-servicios .subtitle {
+    text-align: center;
+  }
+
+  .otros-servicios .otros-servicios-wrapper {
+    column-gap: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 24px;
+  }
+
+  .otros-servicios .text {
+    font-size: 19px;
+  }
+
+  .otros-servicios .otro-servicio-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    padding-right: 15px;
+    width: 25%;
+  }
+
+  .contacto {
+    padding: 140px 0;
+  }
+
+  .contacto .info-wrapper {
+    flex-direction: row;
+  }
+
+  .contacto .side {
+    flex: 1;
+  }
+
+  .contacto .text,
+  .contacto .subtitle {
+    text-align: left;
+  }
+
+  .contacto .text-wrapper {
+    justify-content: flex-start;
+  }
+
+  .contacto .only-desktop {
+    column-gap: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 41px;
+  }
+
+  .contacto .sucursal-wrapper {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+
+  .contacto .text {
+    font-size: 16px;
+  }
+
+  .select-address {
+    font-size: 18px;
+    width: 320px;
+  }
+
+  .footer {
+    padding: 60px 0;
+  }
+
+  .footer .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer .contact-wrapper {
+    flex-direction: row;
+    gap: 70px;
+    justify-content: space-between;
+  }
+  .footer .logo-wrapper {
+    text-align: left;
+  }
+
+  .footer .logo {
+    margin-bottom: 35px;
+  }
+
+  .footer .copyright-text {
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .modal .modal-body {
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 3rem;
+  }
+
+  .modal .photo-wrapper {
+    max-height: 700px;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .modal .photo-wrapper-general {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    max-width: 500px;
+    width: 30%;
+  }
+
+  .modal .info-wrapper {
+    justify-content: center;
+    max-width: 700px;
+    padding: 0;
+  }
+
+  .servicios .card-subtitle {
+    font-size: 28px;
+  }
+
+  .servicios .card-text {
+    font-size: 16px;
+  }
+
+  .servicios .shadow {
+    display: flex;
+  }
+
+  .acerca .doctor-wrapper .shadow {
+    display: flex;
+  }
+}

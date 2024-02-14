@@ -11,9 +11,10 @@
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link href="css/globales.css" media="all" rel="stylesheet" type="text/css" />
+  <!-- <link href="css/globales.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/main.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/responsive.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/responsive.css" media="all" rel="stylesheet" type="text/css" /> -->
+  <link href="css/consolidadoWordpress.css" media="all" rel="stylesheet" type="text/css" />
 
   <title>ProstaCenter</title>
 </head>
@@ -22,11 +23,11 @@
   <nav class="navbar navbar-expand-lg only-mobile">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="" />
+        <img src="https://prostacentermx.com/wp-content/uploads/2024/02/logo.png" alt="" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <img src="images/Menu.svg" class="bars" alt="" />
+        <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Menu.svg" class="bars" alt="" />
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
@@ -67,11 +68,11 @@
   <nav class="navbar navbar-expand-lg only-desktop">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="" />
+        <img src="https://prostacentermx.com/wp-content/uploads/2024/02/logo.png" alt="" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <img src="images/Menu.svg" class="bars" alt="" />
+        <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Menu.svg" class="bars" alt="" />
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
@@ -121,8 +122,8 @@
             <a href="#acerca">
               <button class="btn btn-white">
                 Acerca de nosotros
-                <!-- <img class="normal" src="images/arrow-btn-white.svg" alt="" />
-                <img class="hover" src="images/arrow-btn-white-hover.svg" alt="" /> -->
+                <!-- <img class="normal" src="https://prostacentermx.com/wp-content/uploads/2024/02/arrow-btn-white.svg" alt="" />
+                <img class="hover" src="https://prostacentermx.com/wp-content/uploads/2024/02/arrow-btn-white-hover.svg" alt="" /> -->
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
             </a>
@@ -247,10 +248,31 @@
               </div>
             </div>
           </div>
-          <button class="btn btn-purple">
-            <img src="images/testProstata.svg" alt="" />
+          <button class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#modalTestSintomas">
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/testProstata.svg" alt="" />
             Realiza tu test de síntomas de próstata
           </button>
+          <div class="modal fade" id="modalTestSintomas" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="container">
+                    <div class="form-sintomas-wrapper">
+                      <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Capa_1.png" alt="">
+                      <h2 class="subtitle">Test de sintomas de próstata</h2>
+                      <p class="text">Llena el cuestionario y te enviaremos un correo con tu diagnóstico en menos de 48
+                        horas.</p>
+                      <div class="forminator-sintomas-wrapper">
+                        [forminator_form id="113"]
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -319,7 +341,7 @@
             imageMovil: 'KarianModal.jpg'
           });">
             <div class="image-wrapper">
-              <img class="" src="images/Karian.png" alt="" />
+              <img class="" src="https://prostacentermx.com/wp-content/uploads/2024/02/Karian.png" alt="" />
               <!-- Ajusta los enlaces para incluir un objeto doctorData -->
               <div class="shadow">
                 <div class="shadow-text-wrapper">
@@ -370,7 +392,7 @@
             imageMovil: 'JulioModal.jpg'
             });">
             <div class="image-wrapper">
-              <img class="" src="images/Julio.png" alt="" />
+              <img class="" src="https://prostacentermx.com/wp-content/uploads/2024/02/Julio.png" alt="" />
               <!-- Ajusta los enlaces para incluir un objeto doctorData -->
               <div class="shadow">
                 <div class="shadow-text-wrapper">
@@ -421,7 +443,7 @@
             imageMovil: 'JaimeModal.jpg'
             });">
             <div class="image-wrapper">
-              <img class="" src="images/Jaime.png" alt="" />
+              <img class="" src="https://prostacentermx.com/wp-content/uploads/2024/02/Jaime.png" alt="" />
               <!-- Ajusta los enlaces para incluir un objeto doctorData -->
               <div class="shadow">
                 <div class="shadow-text-wrapper">
@@ -470,7 +492,7 @@
             imageMovil: 'RamiroModal.jpg'
             });">
             <div class="image-wrapper">
-              <img class="" src="images/Ramiro.png" alt="" />
+              <img class="" src="https://prostacentermx.com/wp-content/uploads/2024/02/Ramiro.png" alt="" />
               <!-- Ajusta los enlaces para incluir un objeto doctorData -->
               <div class="shadow">
                 <div class="shadow-text-wrapper">
@@ -518,7 +540,7 @@
             imageMovil: 'AlvaroModal.jpg'
             });">
             <div class="image-wrapper">
-              <img class="" src="images/Alvaro.png" alt="" />
+              <img class="" src="https://prostacentermx.com/wp-content/uploads/2024/02/Alvaro.png" alt="" />
               <!-- Ajusta los enlaces para incluir un objeto doctorData -->
               <div class="shadow">
                 <div class="shadow-text-wrapper">
@@ -546,49 +568,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-lg-4 col-md-6 col-12 doctor-wrapper">
-          <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="" onclick="setActiveDoctor({
-              name: 'José Cisneros',
-              position: 'Mexicali',
-              content: [
-                'Lorem'
-              ],
-              socials: [
-                { link: 'enlace-facebook', icon: 'fa-brands fa-facebook-f' },
-                { link: 'enlace-twitter', icon: 'fa-brands fa-twitter' },
-                { link: 'enlace-instagram', icon: 'fa-brands fa-instagram' },
-                { link: 'enlace-linkedin', icon: 'fa-brands fa-linkedin-in' }
-              ]
-            });">
-            <div class="image-wrapper">
-              <img class="" src="images/doctors.svg" alt="" />
-              <div class="shadow">
-                <div class="shadow-text-wrapper">
-                  <img src="images/doctor-hover.svg" alt="" />
-                  <p class="shadow-text">Ver curriculum</p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <div class="text-wrapper">
-            <h3 class="sub-subtitle">José Cisneros</h3>
-            <h4 class="position-text">Enfermero, Mexicali</h4>
-            <div class="social-icons-wrapper">
-              <a href="">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
   </section>
@@ -607,7 +586,7 @@
       <div class="row" id="serviciosContainer">
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">HOLEP</h4>
             <div class="shadow">
               <h6 class="card-subtitle">HOLEP</h6>
@@ -615,14 +594,14 @@
                 Se utiliza un láser de holmio para eliminar por completo el
                 tejido prostático excesivo.
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">Láser verde</h4>
             <div class="shadow">
               <h6 class="card-subtitle">Láser verde</h6>
@@ -630,14 +609,14 @@
                 Se utiliza  un láser de diodo verde para vaporizar o eliminar
                 el exceso de tejido prostático.
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">Láser Tulio</h4>
             <div class="shadow">
               <h6 class="card-subtitle">Láser Tulio</h6>
@@ -645,14 +624,14 @@
                 Se utiliza un láser de tulio para fragmentar y eliminar el
                 tejido prostático.
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">Urolift</h4>
             <div class="shadow">
               <h6 class="card-subtitle">Urolift</h6>
@@ -660,14 +639,14 @@
                 Colocación de implantes metálicos en la uretra para mantener
                 abierta la vía urinaria y aliviar los síntomas.
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">Rezum</h4>
             <div class="shadow">
               <h6 class="card-subtitle">Rezum</h6>
@@ -675,14 +654,14 @@
                 Procedimiento mediante la inyección de vapor de agua caliente
                 en el tejido prostático para eliminar el exceso de tejido.
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">RTU Bipolar</h4>
             <div class="shadow">
               <h6 class="card-subtitle">RTU Bipolar</h6>
@@ -691,14 +670,14 @@
                 sistema que utiliza energía eléctrica bipolar en lugar de
                 monopolar.
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">Flujometría</h4>
             <div class="shadow">
               <h6 class="card-subtitle">Flujometría</h6>
@@ -706,14 +685,14 @@
                 Prueba médica para medir la velocidad y el volumen del flujo
                 de orina durante la evacuación.
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">Prostatitis</h4>
             <div class="shadow">
               <h6 class="card-subtitle">Prostatitis</h6>
@@ -721,14 +700,14 @@
                 Uso de antibióticos para combatir la inflamación de la
                 próstata.
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 col-6 card-servicios-wrapper">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">MiLEP</h4>
             <div class="shadow">
               <h6 class="card-subtitle">MiLEP</h6>
@@ -736,7 +715,7 @@
                 Se utiliza un morcelador para fragmentar y eliminar el exceso
                 de tejido prostático.
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
@@ -750,7 +729,7 @@
       <div class="row" id="serviciosContainer2">
         <div class="col-lg-3 col-md-6 col-6">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">Cirugía robótica </h4>
             <div class="shadow">
               <h6 class="card-subtitle">Cirugía robótica</h6>
@@ -758,14 +737,14 @@
                 Implica el uso de un robot quirúrgico para asistir al cirujano
                 en la extirpación del exceso de tejido prostático.
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 col-6">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">Cirugía laparoscópica</h4>
             <div class="shadow">
               <h6 class="card-subtitle">Cirugía laparoscópica</h6>
@@ -774,14 +753,14 @@
                 incisiones en el abdomen y se introduce un laparoscópio para
                 realizar la cirugía con mínima invasión.
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 col-6">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">Crioterapia</h4>
             <div class="shadow">
               <h6 class="card-subtitle">Crioterapia</h6>
@@ -789,14 +768,14 @@
                 Tratamiento que utiliza temperaturas extremadamente frías para
                 congelar y destruir tejido enfermo o anormal.
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 col-6">
           <div class="card-servicios">
-            <img src="images/Image-icon-(1).png" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             <h4 class="card-servicios-title">Cirugía abierta</h4>
             <div class="shadow">
               <h6 class="card-subtitle">Cirugía abierta</h6>
@@ -805,7 +784,7 @@
                 abdomen para acceder a la próstata y extirpar el tejido
                 prostático excesivo. 
               </p>
-              <img src="images/Image-icon-(1).png" alt="" />
+              <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Image-icon-(1).png" alt="" />
             </div>
           </div>
         </div>
@@ -818,46 +797,46 @@
       <h2 class="subtitle">Otros Servicios</h2>
       <div class="otros-servicios-wrapper">
         <div class="otro-servicio-wrapper">
-          <img src="images/Check-Circle.svg" alt="" />
+          <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Check-Circle.svg" alt="" />
           <p class="text">Andropausia.</p>
         </div>
         <div class="otro-servicio-wrapper">
-          <img src="images/Check-Circle.svg" alt="" />
+          <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Check-Circle.svg" alt="" />
           <p class="text">Cáncer de pene.</p>
         </div>
         <div class="otro-servicio-wrapper">
-          <img src="images/Check-Circle.svg" alt="" />
+          <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Check-Circle.svg" alt="" />
           <p class="text">Cáncer de próstata.</p>
         </div>
         <div class="otro-servicio-wrapper">
-          <img src="images/Check-Circle.svg" alt="" />
+          <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Check-Circle.svg" alt="" />
           <p class="text">Cáncer renal.</p>
         </div>
         <div class="otro-servicio-wrapper">
-          <img src="images/Check-Circle.svg" alt="" />
+          <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Check-Circle.svg" alt="" />
           <p class="text">Cáncer testicular.</p>
         </div>
         <div class="otro-servicio-wrapper">
-          <img src="images/Check-Circle.svg" alt="" />
+          <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Check-Circle.svg" alt="" />
           <p class="text">Cáncer vesical.</p>
         </div>
         <div class="otro-servicio-wrapper">
-          <img src="images/Check-Circle.svg" alt="" />
+          <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Check-Circle.svg" alt="" />
           <p class="text">Disfunción eréctil.</p>
         </div>
         <div class="otro-servicio-wrapper">
-          <img src="images/Check-Circle.svg" alt="" />
+          <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Check-Circle.svg" alt="" />
           <p class="text">Litiasis.</p>
         </div>
         <div class="otro-servicio-wrapper">
-          <img src="images/Check-Circle.svg" alt="" />
+          <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Check-Circle.svg" alt="" />
           <p class="text large-text">
             Enfermedades de transmisión sexual (ETS).
           </p>
         </div>
 
         <div class="otro-servicio-wrapper">
-          <img src="images/Check-Circle.svg" alt="" />
+          <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Check-Circle.svg" alt="" />
           <p class="text large-text">Virus del papiloma humano (VPH).</p>
         </div>
       </div>
@@ -875,7 +854,7 @@
               adipiscing tincidunt interdum tellus du.
             </p> -->
           <div class="text-wrapper">
-            <img src="images/Email.svg" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Email.svg" alt="" />
             <p class="text">contact@company.com</p>
           </div>
           <select name="" class="select-address" id="ubicacion">
@@ -888,110 +867,94 @@
           <div class="">
             <div class="sucursal-wrapper" id="colima-address">
               <div class="wrapper">
-                <img src="images/Mark.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Mark.svg" alt="" />
                 <p class="text">
                   Av. Ignacio Sandoval #1699, Colima, México.
                 </p>
               </div>
               <div class="wrapper">
-                <img src="images/Phone.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Phone.svg" alt="" />
                 <p class="text">312 116 0648</p>
               </div>
             </div>
             <div class="sucursal-wrapper" id="manzanillo-address">
               <div class="wrapper">
-                <img src="images/Mark.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Mark.svg" alt="" />
                 <p class="text">
                   Blvd. Miguel de la Madrid #444, Fondeport, Manzanillo, Col.
                 </p>
               </div>
               <div class="wrapper">
-                <img src="images/Phone.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Phone.svg" alt="" />
                 <p class="text">314 336 7272</p>
               </div>
               <div class="wrapper">
-                <img src="images/Phone.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Phone.svg" alt="" />
                 <p class="text">314 336 6273</p>
               </div>
               <div class="wrapper">
-                <img src="images/Phone.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Phone.svg" alt="" />
                 <p class="text">314 334 2500</p>
               </div>
             </div>
             <div class="sucursal-wrapper" id="puerto-vallarta-address">
               <div class="wrapper">
-                <img src="images/Mark.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Mark.svg" alt="" />
                 <p class="text">
                   Av. Grandes Lagos #222, Fluvial Vallarta, Puerto Vallarta.
                 </p>
               </div>
               <div class="wrapper">
-                <img src="images/Phone.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Phone.svg" alt="" />
                 <p class="text">322 352 4039</p>
               </div>
               <div class="wrapper">
-                <img src="images/Phone.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Phone.svg" alt="" />
                 <p class="text">322 209 4161</p>
               </div>
             </div>
             <div class="sucursal-wrapper" id="mexicali-address">
               <div class="wrapper">
-                <img src="images/Mark.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Mark.svg" alt="" />
                 <p class="text">
                   Av. Fco. I Madero #758, Edificio OPUS, Zona Centro,
                   Mexicali.
                 </p>
               </div>
               <div class="wrapper">
-                <img src="images/Phone.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Phone.svg" alt="" />
                 <p class="text">686 568 6304</p>
               </div>
               <div class="wrapper">
-                <img src="images/Phone.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Phone.svg" alt="" />
                 <p class="text">686 225 0745</p>
               </div>
             </div>
             <div class="sucursal-wrapper" id="sonora-address">
               <div class="wrapper">
-                <img src="images/Mark.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Mark.svg" alt="" />
                 <p class="text">
                   Avenida Kino y calle 7, San Luis Río Colorado, Sonora.
                 </p>
               </div>
               <div class="wrapper">
-                <img src="images/Phone.svg" alt="" />
+                <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Phone.svg" alt="" />
                 <p class="text">653 515 9650</p>
               </div>
             </div>
           </div>
           <div class="map-wrapper" id="map-wrapper">
-            <img class="colima" id="colima-map" src="images/colima.png" alt="" />
-            <img class="manzanillo" src="images/manzanillo.png" alt="" />
-            <img class="puerto-vallarta" src="images/puerto-vallarta.png" alt="" />
-            <img class="mexicali" src="images/mexicali.png" alt="" />
-            <img class="sonora" src="images/sonora.png" alt="" />
+            <img class="colima" id="colima-map" src="https://prostacentermx.com/wp-content/uploads/2024/02/colima.png"
+              alt="" />
+            <img class="manzanillo" src="https://prostacentermx.com/wp-content/uploads/2024/02/manzanillo.png" alt="" />
+            <img class="puerto-vallarta" src="https://prostacentermx.com/wp-content/uploads/2024/02/puerto-vallarta.png"
+              alt="" />
+            <img class="mexicali" src="https://prostacentermx.com/wp-content/uploads/2024/02/mexicali.png" alt="" />
+            <img class="sonora" src="https://prostacentermx.com/wp-content/uploads/2024/02/sonora.png" alt="" />
           </div>
         </div>
         <div class="side">
-          <!-- <form class="contact-form" id="contact-form" action="php/contact.php" method="POST"> 
-            <div class="contact-field large-field">
-              <label class="contact-label" for="name">Nombre</label>
-              <input class="contact-input" type="text" name="name" id="name" required />
-            </div>
-            <div class="contact-field medium-field">
-              <label class="contact-label" for="company">Compañía</label>
-              <input class="contact-input" type="text" name="company" id="company" />
-            </div>
-            <div class="contact-field medium-field">
-              <label class="contact-label" for="email">Email</label>
-              <input class="contact-input" type="email" name="email" id="email" required />
-            </div>
-            <div class="contact-field large-field">
-              <textarea class="contact-textarea" name="message" id="message" placeholder="MENSAJE"></textarea>
-            </div>
-            <input class="contact-submit" type="submit" name="submit" value="Enviar" />
-          </form> -->
-          <div class="alert"></div>
+          <div class="form-wrapper">[forminator_form id="96"]</div>
         </div>
       </div>
     </div>
@@ -1001,7 +964,7 @@
     <div class="container">
       <div class="footer-container">
         <div class="logo-wrapper">
-          <img class="logo" src="images/logoFooter.jpg" alt="" />
+          <img class="logo" src="https://prostacentermx.com/wp-content/uploads/2024/02/logoFooter.jpg" alt="" />
         </div>
         <div class="social-icons-wrapper">
           <a href="">
@@ -1021,11 +984,11 @@
       <hr />
       <div class="contact-wrapper">
         <!-- <div class="wrapper">
-            <img src="images/Phonewhite.svg" alt="" />
+            <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Phonewhite.svg" alt="" />
             <p class="text">312 116 0648</p>
           </div> -->
         <div class="wrapper">
-          <img src="images/Emailwhite.svg" alt="" />
+          <img src="https://prostacentermx.com/wp-content/uploads/2024/02/Emailwhite.svg" alt="" />
           <p class="text">contacto@prostacenter.mx</p>
         </div>
         <p class="copyright-text">

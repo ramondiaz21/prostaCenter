@@ -1,3 +1,141 @@
+.form-wrapper {
+  border-radius: 12px;
+  background: #f2f1fa;
+  padding: 32px;
+}
+
+.forminator-ui {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+}
+
+.forminator-row {
+  margin-bottom: 0!important;
+}
+
+.forminator-ui.forminator-custom-form[data-grid="open"]
+  .forminator-row:not(:last-child) {
+  margin-bottom: 0 !important;
+}
+
+.forminator-input,
+.forminator-textarea {
+  border-radius: 50px !important;
+  background: white !important;
+  font-size: 16px !important;
+  padding: 10px 23px !important;
+  color: #8d8ba7 !important;
+  font-family: "FuturaBook" !important;
+  border: none !important;
+}
+
+.forminator-textarea {
+  border-radius: 20px !important;
+}
+
+.ast-container {
+  max-width: 100%;
+  padding: 0 !important;
+}
+
+#primary {
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+.entry-header {
+  display: none !important;
+}
+
+section {
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+.site-header {
+  display: none !important;
+}
+
+.ast-single-post .entry-content a,
+.ast-comment-content a:not(.ast-comment-edit-reply-wrap a) {
+  text-decoration: none !important;
+}
+
+.site-footer {
+  display: none !important;
+}
+
+.navbar {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.accordion-button {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#ast-scroll-top {
+  display: none !important;
+}
+
+.footer {
+  max-width: 100% !important;
+}
+
+.nav-link {
+  padding: 0 !important;
+}
+
+.menu-toggle,
+button,
+.ast-button,
+.ast-custom-button,
+.button,
+input#submit,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+#comments .submit,
+.search .search-submit,
+form[CLASS*="wp-block-search__"].wp-block-search
+  .wp-block-search__inside-wrapper
+  .wp-block-search__button,
+body .wp-block-file .wp-block-file__button,
+.search .search-submit,
+.woocommerce-js a.button,
+.woocommerce button.button,
+.woocommerce .woocommerce-message a.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce input.button.alt,
+.woocommerce input.button,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled],
+.woocommerce input.button:disabled:hover,
+.woocommerce input.button:disabled[disabled]:hover,
+.woocommerce #respond input#submit,
+.woocommerce button.button.alt.disabled,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link,
+.wc-block-grid__product-onsale,
+[CLASS*="wc-block"] button,
+.woocommerce-js
+  .astra-cart-drawer
+  .astra-cart-drawer-content
+  .woocommerce-mini-cart__buttons
+  .button:not(.checkout):not(.ast-continue-shopping),
+.woocommerce-js
+  .astra-cart-drawer
+  .astra-cart-drawer-content
+  .woocommerce-mini-cart__buttons
+  a.checkout,
+.woocommerce button.button.alt.disabled.wc-variation-selection-needed,
+[CLASS*="wc-block"] .wc-block-components-button {
+  padding: 0;
+  box-shadow: none;
+}
+
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -29,19 +167,19 @@ a:hover {
 }
 
 .btn-white {
-  padding: 18px 24px;
   align-items: center;
-  display: flex;
-  gap: 8px;
-  background-color: white;
-  color: #1e285f;
+  background-color: white !important;
+  border: none;
   border-radius: 30px;
+  color: #1e285f !important;
+  display: flex;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  border: none;
-  transition: 0.5s all ease;
+  gap: 8px;
+  padding: 18px 24px;
   position: relative;
+  transition: 0.5s all ease;
 }
 
 .btn-white img {
@@ -53,13 +191,13 @@ a:hover {
 }
 
 .btn-white:hover {
-  background-color: #86a1fc;
-  color: white;
+  background-color: #86a1fc !important;
+  color: white !important;
 }
 
 .btn-white:hover img.normal {
-  opacity: 0;
   display: none;
+  opacity: 0;
 }
 
 .btn-white:hover img.hover {
@@ -68,45 +206,65 @@ a:hover {
 }
 
 .btn-purple {
-  padding: 24px 5px;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  display: flex;
-  gap: 10px;
-  color: white;
-  border-radius: 12px;
   background: #4d73fb;
+  border: none;
+  border-radius: 12px;
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+  color: white !important;
+  display: flex;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  border: none;
+  gap: 10px;
+  justify-content: center;
+  padding: 24px 5px;
   text-align: left;
   transition: 0.5s all ease;
+  width: 100%;
 }
 
 .btn-purple:hover {
-  color: white;
-  background-color: #1c3295;
+  background-color: #1c3295 !important;
+  color: white !important;
 }
 
 .btn-blue {
-  padding: 18px 24px;
-  color: white;
-  border-radius: 30px;
   background: #4b3fff;
+  border: none;
+  border-radius: 30px;
+  color: white !important;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  border: none;
+  padding: 18px 24px;
   text-align: center;
   transition: 0.5s all ease;
 }
 
 .btn-blue:hover {
-  color: white;
-  background-color: #1c3295;
+  background-color: #1c3295 !important;
+  color: white !important;
+}
+
+.forminator-button {
+  width: 100% !important;
+  background: #4b3fff !important;
+  border: none !important;
+  border-radius: 30px !important;
+  color: white !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  padding: 18px 24px !important;
+  text-align: center !important;
+  transition: 0.5s all ease !important;
+  font-family: "FuturaBook" !important;
+}
+
+.forminator-button:hover {
+  background-color: #1c3295 !important;
+  color: white !important;
 }
 
 .container {
@@ -114,23 +272,23 @@ a:hover {
 }
 
 button:focus {
-  outline: none !important;
   box-shadow: none !important;
+  outline: none !important;
 }
 
 .subtitle {
+  color: #5d5a88 !important;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
-  color: #5d5a88;
   text-align: center;
 }
 
 .text {
+  color: #5d5a88 !important;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  color: #5d5a88;
   text-align: center;
 }
 
@@ -150,41 +308,40 @@ button:focus {
   font-family: "FuturaBook";
   font-style: normal;
   font-weight: normal;
-  src: url("../futura/FuturaPTBook.otf");
+  src: url("https://prostacentermx.com/wp-content/font/FuturaPTBook.otf");
 }
 
 @font-face {
   font-family: "FuturaDemi";
   font-style: normal;
   font-weight: normal;
-  src: url("../futura/FuturaPTDemi.otf");
+  src: url("https://prostacentermx.com/wp-content/font/FuturaPTDemi.otf");
 }
-
 
 @font-face {
   font-family: "FuturaBold";
   font-style: normal;
   font-weight: normal;
-  src: url("../futura/FuturaPTBold.otf");
+  src: url("https://prostacentermx.com/wp-content/font/FuturaPTBold.otf");
 }
 
 @font-face {
   font-family: "FuturaMedium";
   font-style: normal;
   font-weight: normal;
-  src: url("../futura/FuturaPTMedium.otf");
+  src: url("https://prostacentermx.com/wp-content/font/FuturaPTMedium.otf");
 }
 
 @font-face {
   font-family: "FuturaBook";
   font-style: normal;
   font-weight: normal;
-  src: url("../futura/FuturaPTBook.otf");
+  src: url("https://prostacentermx.com/wp-content/font/FuturaPTBook.otf");
 }
 
 @font-face {
   font-family: "FuturaLight";
   font-style: normal;
   font-weight: normal;
-  src: url("../futura/FuturaPTLight.otf");
+  src: url("https://prostacentermx.com/wp-content/font/FuturaPTLight.otf");
 }

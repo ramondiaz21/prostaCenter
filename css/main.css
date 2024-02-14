@@ -3,7 +3,7 @@
 }
 
 .navbar {
-  background-color: white;
+  background-color: white !important;
   padding: 25px 0;
   position: fixed;
   top: 0;
@@ -16,9 +16,9 @@
 
   .fa-brands {
     align-items: center;
-    background-color: #2d26a2;
+    background-color: #2d26a2 !important;
     border-radius: 7px;
-    color: white;
+    color: white !important;
     display: flex;
     font-size: 16px;
     height: 36px;
@@ -41,7 +41,7 @@
   }
 
   .nav-link {
-    color: #2d26a2;
+    color: #2d26a2 !important;
     font-family: "FuturaBook";
     font-size: 22px;
     font-style: normal;
@@ -50,7 +50,7 @@
 }
 
 .navbar .copyright-text {
-  color: #2d26a2;
+  color: #2d26a2 !important;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -62,7 +62,7 @@
 }
 
 .navbar-collapse.collapsing {
-  background-color: white;
+  background-color: white !important;
   display: flex;
   flex-direction: column;
   height: calc(100dvh - 92px);
@@ -77,7 +77,7 @@
 }
 
 .navbar-collapse.show {
-  background-color: white;
+  background-color: white !important;
   display: flex;
   flex-direction: column;
   height: calc(100dvh - 92px);
@@ -102,7 +102,7 @@
 
 .hero {
   align-items: flex-start;
-  background-image: url("../images/hero-movil.jpg");
+  background-image: url("https://prostacentermx.com/wp-content/uploads/2024/02/hero-movil.jpg");
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -122,7 +122,7 @@
   .play {
     align-items: center;
     border-radius: 100px;
-    color: #1e285f;
+    color: #1e285f !important;
     display: flex;
     font-size: 22px;
     height: 66px;
@@ -131,7 +131,7 @@
   }
 
   .title {
-    color: white;
+    color: white !important;
     font-family: "FuturaBold";
     font-size: 44px;
     font-style: normal;
@@ -141,7 +141,7 @@
   }
 
   .text {
-    color: white;
+    color: white !important;
     font-family: "FuturaBook";
     font-size: 14px;
     margin: 15px 0 45px 0;
@@ -159,12 +159,12 @@
   }
 
   .btn-white {
-    color: #1e285f;
+    color: #1e285f !important;
   }
 }
 
 .faqs {
-  background-color: white;
+  background-color: white !important;
   padding: 70px 0 44px 0;
 
   .text {
@@ -173,14 +173,14 @@
   }
 
   .accordion-item {
-    background-color: white;
+    background-color: white !important;
     border: none;
     border-top: 1px solid #d4d2e3;
     padding: 32px 0 56px 0;
   }
 
   .accordion-button {
-    color: #5d5a88;
+    color: #5d5a88 !important;
     font-family: "FuturaDemi";
     font-size: 18px;
     font-style: normal;
@@ -190,13 +190,13 @@
   }
 
   .accordion-button:not(.collapsed) {
-    background-color: white;
+    background-color: white !important;
     box-shadow: none;
-    color: #5d5a88;
+    color: #5d5a88 !important;
   }
 
   .accordion-body p {
-    color: #9795b5;
+    color: #9795b5 !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -204,7 +204,7 @@
   }
 
   .accordion-body li {
-    color: #9795b5;
+    color: #9795b5 !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -226,11 +226,11 @@
 }
 
 .acerca {
-  background-color: white;
+  background-color: white !important;
   padding: 44px 0 80px 0;
 
   .sub-subtitle {
-    color: #5d5a88;
+    color: #5d5a88 !important;
     font-size: 23.589px;
     font-style: normal;
     font-weight: 700;
@@ -239,7 +239,7 @@
   }
 
   .position-text {
-    color: #8d8ba7;
+    color: #8d8ba7 !important;
     font-family: "FuturaBook";
     font-size: 16.849px;
     font-style: normal;
@@ -250,9 +250,9 @@
 
   .fa-brands {
     align-items: center;
-    background-color: #f2f1fa;
+    background-color: #f2f1fa !important;
     border-radius: 7px;
-    color: #8d8ba7;
+    color: #8d8ba7 !important;
     display: flex;
     font-size: 16px;
     height: 36px;
@@ -314,7 +314,7 @@
 
 .acerca .shadow-text-wrapper {
   align-items: center;
-  background-color: rgb(0 0 0 / 70%);
+  background-color: rgb(0 0 0 / 70%) !important;
   border-radius: 16.849px;
   display: flex;
   flex-direction: column;
@@ -331,7 +331,7 @@
 }
 
 .acerca .shadow-text {
-  color: white;
+  color: white !important;
   font-family: "FuturaDemi";
   font-size: 28px;
   font-style: normal;
@@ -383,7 +383,7 @@
   }
 
   li {
-    color: #818181;
+    color: #818181 !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -404,10 +404,10 @@
 }
 
 .modal .btn-secondary {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6) !important;
   border: none;
   border-radius: 12px;
-  color: white;
+  color: white !important;
   left: 15px;
   max-width: 100%;
   min-width: 100px;
@@ -417,9 +417,9 @@
 }
 
 .modal .only-desktop {
-  background-color: transparent;
+  background-color: transparent !important;
   border: none;
-  color: #4d73fb;
+  color: #4d73fb !important;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -440,7 +440,7 @@
 }
 
 .servicios {
-  background-color: white;
+  background-color: white !important;
   padding: 40px 0 59px 0;
 
   .text {
@@ -448,7 +448,7 @@
   }
 
   .sub-subtitle {
-    color: #9795b5;
+    color: #9795b5 !important;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -486,7 +486,7 @@
   }
 
   .card-servicios-title {
-    color: #5d5a88;
+    color: #5d5a88 !important;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -496,7 +496,7 @@
 
 .servicios .shadow {
   align-items: center;
-  background-color: #1c3295;
+  background-color: #1c3295 !important;
   border-radius: 24px;
   display: none;
   flex-direction: column;
@@ -515,14 +515,14 @@
 }
 
 .servicios .card-subtitle {
-  color: white;
+  color: white !important;
   font-family: "FuturaDemi";
   font-size: 16px;
   font-style: normal;
 }
 
 .servicios .card-text {
-  color: white;
+  color: white !important;
   font-family: "FuturaLight";
   font-size: 12px;
   font-style: normal;
@@ -536,12 +536,12 @@
 }
 
 .otros-servicios {
-  background-color: rgba(134, 161, 252, 0.7);
+  background-color: rgba(134, 161, 252, 0.7) !important;
   padding: 54px 0 104px 0;
 }
 
 .otros-servicios .subtitle {
-  color: #393c5e;
+  color: #393c5e !important;
   margin-bottom: 64px;
   text-align: left;
 }
@@ -566,17 +566,17 @@
 }
 
 .otros-servicios .text {
-  color: #393c5e;
+  color: #393c5e !important;
   margin-bottom: 0;
   text-align: left;
 }
 
 .contacto {
-  background-color: white;
+  background-color: white !important;
   padding: 60px 0 82px 0;
 
   .bold {
-    color: #8d8ba7;
+    color: #8d8ba7 !important;
     font-family: "FuturaDemi";
   }
 
@@ -622,10 +622,10 @@
   }
 
   .select-address {
-    background-color: white;
+    background-color: white !important;
     border: 1px solid #0000001a;
     border-radius: 8px;
-    color: #2d26a2;
+    color: #2d26a2 !important;
     font-family: "FuturaBook";
     font-size: 16px;
     font-style: normal;
@@ -636,11 +636,11 @@
   }
 
   .select-address:hover {
-    background-color: #f5f4fb;
+    background-color: #f5f4fb !important;
   }
 
   .select-address:focus-visible {
-    background-color: #f5f4fb;
+    background-color: #f5f4fb !important;
   }
 }
 
@@ -660,24 +660,24 @@
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background: url("../images/arrow-select.svg") no-repeat right center / 15px
-    15px;
+  background: url("https://prostacentermx.com/wp-content/uploads/2024/02/arrow-select.svg")
+    no-repeat right center / 15px 15px;
   background-position: calc(100% - 16px) center;
   padding-right: 16px;
   transition: 0.5s all ease;
 }
 
 .contacto select.select-address {
-  background: url("../images/arrow-select.svg") no-repeat right center / 15px
-    15px;
+  background: url("https://prostacentermx.com/wp-content/uploads/2024/02/arrow-select.svg")
+    no-repeat right center / 15px 15px;
   background-position: calc(100% - 16px) center;
   padding-right: 16px;
   transition: 0.5s all ease;
 }
 
 .contacto select.select-address.focus-visible {
-  background: url("../images/arrow-select-hover.svg") no-repeat right center /
-    15px 15px;
+  background: url("https://prostacentermx.com/wp-content/uploads/2024/02/arrow-select-hover.svg")
+    no-repeat right center / 15px 15px;
   background-position: calc(100% - 16px) center;
   padding-right: 16px;
 }
@@ -685,7 +685,7 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .select-address::-ms-expand {
     border: none !important;
-    color: #2d26a2;
+    color: #2d26a2 !important;
     font-family: "FuturaBook";
     font-size: 16px;
     font-style: normal;
@@ -698,7 +698,7 @@
 }
 
 .footer {
-  background-color: #1c3295;
+  background-color: #1c3295 !important;
   padding: 45.98px 0;
 
   .logo-wrapper {
@@ -725,15 +725,15 @@
   }
 
   .text {
-    color: white;
+    color: white !important;
     margin: 0;
   }
 
   .fa-brands {
     align-items: center;
-    background-color: white;
+    background-color: white !important;
     border-radius: 7px;
-    color: #1c3295;
+    color: #1c3295 !important;
     display: flex;
     font-size: 16px;
     height: 36px;
@@ -757,7 +757,7 @@
 }
 
 .footer .copyright-text {
-  color: white;
+  color: white !important;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -783,13 +783,13 @@
 }
 
 .alert.error {
-  background-color: red;
-  color: white;
+  background-color: red !important;
+  color: white !important;
 }
 
 .alert.success {
-  background-color: rgb(93, 90, 136);
-  color: white;
+  background-color: rgb(93, 90, 136) !important;
+  color: white !important;
 }
 
 .d-none {

@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <button type="button" class="only-mobile btn btn-secondary" data-bs-dismiss="modal">< Volver</button>
       <div class="photo-wrapper-general">
         <div class="photo-wrapper">
-          <img class="photo-wrapper-img" src="images/${servicioData.image}" alt="">
+          <img class="photo-wrapper-img" src="https://prostacentermx.com/wp-content/uploads/2024/02/${servicioData.image}" alt="">
         </div>
       </div>
       <div class="info-wrapper">
@@ -59,8 +59,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Verifica si existe la propiedad imageMovil y si el ancho de la pantalla es menor o igual a 991.98
     const imageUrl =
       doctorData.imageMovil && window.innerWidth <= 991.98
-      ? `images/${doctorData.image}`
-      : `images/${doctorData.imageMovil}`;
+      ? `https://prostacentermx.com/wp-content/uploads/2024/02/${doctorData.image}`
+      : `https://prostacentermx.com/wp-content/uploads/2024/02/${doctorData.imageMovil}`;
 
     // Actualiza el contenido del modal de doctores
     modalBody.innerHTML = `
