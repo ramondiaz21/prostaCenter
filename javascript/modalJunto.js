@@ -12,17 +12,19 @@ document.addEventListener("DOMContentLoaded", function () {
       position: $(this).find(".card-subtitle").text(),
       content: [$(this).find(".card-text").text()],
       socials: [],
-      image: $(this).find(".photo-wrapper-img").text(),
+      imageDesktop: $(this).find(".desktop-image").attr("src"),
+      imageMobile: $(this).find(".mobile-image").attr("src"),
     };
 
     // Actualiza el contenido del modal de servicios
     modalBody.innerHTML = `
       <button type="button" class="only-mobile btn btn-secondary" data-bs-dismiss="modal">< Volver</button>
-      <div class="photo-wrapper-general">
-        <div class="photo-wrapper">
-          <img class="photo-wrapper-img" src="https://prostacentermx.com/wp-content/uploads/2024/02/${servicioData.image}" alt="">
-        </div>
+    <div class="photo-wrapper-general">
+      <div class="photo-wrapper">
+        <img class="photo-wrapper-img only-desktop" src="${servicioData.imageDesktop}" alt="Desktop Image">
+        <img class="photo-wrapper-img only-mobile" src="${servicioData.imageMobile}" alt="Mobile Image">
       </div>
+    </div>
       <div class="info-wrapper">
         <button type="button" class="only-desktop" data-bs-dismiss="modal">< Volver</button>
         <h5 class="sub-subtitle">${servicioData.position}</h5>
@@ -38,14 +40,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Verifica el ancho de la pantalla y actualiza el modal de servicios
   function checkScreenSize() {
-    if (window.innerWidth <= 991.98) {
-      $(".card-servicios").off("click").on("click", updateServicesModal);
-      $("#exampleModal").on("hidden.bs.modal", function () {
-        $("#modalBody").empty();
-      });
-    } else {
-      $(".card-servicios").off("click"); // Desvincula el evento click si la pantalla es grande
-    }
+    $(".card-servicios").off("click").on("click", updateServicesModal);
+    $("#exampleModal").on("hidden.bs.modal", function () {
+      $("#modalBody").empty();
+    });
   }
 
   // Captura el evento de cerrarse el modal
@@ -59,8 +57,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Verifica si existe la propiedad imageMovil y si el ancho de la pantalla es menor o igual a 991.98
     const imageUrl =
       doctorData.imageMovil && window.innerWidth <= 991.98
-      ? `https://prostacentermx.com/wp-content/uploads/2024/02/${doctorData.image}`
-      : `https://prostacentermx.com/wp-content/uploads/2024/02/${doctorData.imageMovil}`;
+        ? `https://prostacentermx.com/wp-content/uploads/2024/02/${doctorData.image}`
+        : `https://prostacentermx.com/wp-content/uploads/2024/02/${doctorData.imageMovil}`;
 
     // Actualiza el contenido del modal de doctores
     modalBody.innerHTML = `
