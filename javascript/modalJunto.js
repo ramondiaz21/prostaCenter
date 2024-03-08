@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <button type="button" class="only-mobile btn btn-secondary" data-bs-dismiss="modal">< Volver</button>
     <div class="photo-wrapper-general">
       <div class="photo-wrapper">
-        <img class="photo-wrapper-img only-desktop" src="${servicioData.imageDesktop}" alt="Desktop Image">
-        <img class="photo-wrapper-img only-mobile" src="${servicioData.imageMobile}" alt="Mobile Image">
+        <img class="photo-wrapper-img only-desktop" src="${servicioData.imageDesktop}">
+        <img class="photo-wrapper-img only-mobile" src="${servicioData.imageMobile}">
       </div>
     </div>
       <div class="info-wrapper">
